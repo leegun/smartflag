@@ -29,6 +29,7 @@
     layout.itemSize = CGSizeMake(80, 53);
     layout.minimumInteritemSpacing = 20;
     layout.minimumLineSpacing = 20;
+    [layout setSectionInset:UIEdgeInsetsMake(0, 0, 50, 0)];
     
     //フラグリストコレクションビュー
     FlagListViewController * flagListViewController= [[FlagListViewController alloc] initWithCollectionViewLayout:layout];
@@ -63,6 +64,15 @@
     
     //ローディングビュー
     [self.window addSubview:[LoadingView new]];
+    
+    //広告
+    int vcHeight = [[UIScreen mainScreen] bounds].size.height;
+    self.nadView = [[NADView alloc] initWithFrame:CGRectMake(0, vcHeight - 50, 320, 50)];
+    [self.nadView setIsOutputLog:NO];
+    [self.nadView setNendID:@"025ca51121184feeca2b45c990fe47f2e701cb5a" spotID:@"10169"];
+    [self.nadView setDelegate:self];
+    [self.nadView load];
+    [self.window addSubview:self.nadView];
     
     [self setupNotifications];
     

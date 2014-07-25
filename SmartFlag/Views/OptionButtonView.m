@@ -15,7 +15,7 @@
     //画面サイズ
     vcFrame = [[UIScreen mainScreen] bounds];
 
-    self = [super initWithFrame:CGRectMake(10, vcFrame.size.height - 80, 50, 50)];
+    self = [super initWithFrame:CGRectMake(10, vcFrame.size.height - 120, 50, 50)];
     if (self) {
         
         //オプションボタン

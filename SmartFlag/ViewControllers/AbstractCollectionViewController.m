@@ -66,9 +66,9 @@
         UIImage * image = [UIImage imageNamed:imageName];
         if (image == nil) {
             NSLog(@"%@",[flagData objectForKey:@"code"]);
-            cell.bgImage.image = [UIImage imageNamed:thumbName];
+            [cell.bgImage setBackgroundImage:[UIImage imageNamed:thumbName] forState:UIControlStateNormal];
         } else {
-            cell.bgImage.image = image;
+            [cell.bgImage setBackgroundImage:image forState:UIControlStateNormal];
         }
         cell.name.text = [flagData objectForKey:[[NSUserDefaults standardUserDefaults] objectForKey:USER_DEFAULT_LOCALE]];
         [cell.link addTarget:self action:@selector(onLink:) forControlEvents:UIControlEventTouchUpInside];

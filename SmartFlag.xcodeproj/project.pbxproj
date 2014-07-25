@@ -441,6 +441,12 @@
 		F828CA561982AFC2004212CF /* ws.png in Resources */ = {isa = PBXBuildFile; fileRef = F828CA551982AFC2004212CF /* ws.png */; };
 		F828CA581982AFED004212CF /* cr.png in Resources */ = {isa = PBXBuildFile; fileRef = F828CA571982AFED004212CF /* cr.png */; };
 		F828CA5A1982B110004212CF /* sb.png in Resources */ = {isa = PBXBuildFile; fileRef = F828CA591982B110004212CF /* sb.png */; };
+		F828CA5C1982BA7F004212CF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F828CA5B1982BA7F004212CF /* Security.framework */; };
+		F828CA5E1982BA89004212CF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F828CA5D1982BA89004212CF /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		F828CA601982BA9A004212CF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F828CA5F1982BA9A004212CF /* ImageIO.framework */; };
+		F828CA621982BAC9004212CF /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F828CA611982BAC9004212CF /* libNendAd.a */; };
+		F828CA6B1982BB32004212CF /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F828CA651982BB32004212CF /* libNendAd.a */; };
+		F828CA6C1982BB32004212CF /* NADView_readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = F828CA6A1982BB32004212CF /* NADView_readme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -906,6 +912,16 @@
 		F828CA551982AFC2004212CF /* ws.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ws.png; sourceTree = "<group>"; };
 		F828CA571982AFED004212CF /* cr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cr.png; sourceTree = "<group>"; };
 		F828CA591982B110004212CF /* sb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sb.png; sourceTree = "<group>"; };
+		F828CA5B1982BA7F004212CF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F828CA5D1982BA89004212CF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		F828CA5F1982BA9A004212CF /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		F828CA611982BAC9004212CF /* libNendAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNendAd.a; path = NendAd/libNendAd.a; sourceTree = "<group>"; };
+		F828CA651982BB32004212CF /* libNendAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNendAd.a; sourceTree = "<group>"; };
+		F828CA661982BB32004212CF /* NADIconArrayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconArrayView.h; sourceTree = "<group>"; };
+		F828CA671982BB32004212CF /* NADIconLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconLoader.h; sourceTree = "<group>"; };
+		F828CA681982BB32004212CF /* NADIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconView.h; sourceTree = "<group>"; };
+		F828CA691982BB32004212CF /* NADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADView.h; sourceTree = "<group>"; };
+		F828CA6A1982BB32004212CF /* NADView_readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NADView_readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -913,6 +929,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F828CA621982BAC9004212CF /* libNendAd.a in Frameworks */,
+				F828CA601982BA9A004212CF /* ImageIO.framework in Frameworks */,
+				F828CA6B1982BB32004212CF /* libNendAd.a in Frameworks */,
+				F828CA5E1982BA89004212CF /* AdSupport.framework in Frameworks */,
+				F828CA5C1982BA7F004212CF /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -939,6 +960,7 @@
 				F828C5BA1981C4F9004212CF /* Manager */,
 				F828C5A81981C4F9004212CF /* Animations */,
 				F828C73A1981C4FA004212CF /* Utils */,
+				F828CA631982BB32004212CF /* Library */,
 				F828C5B51981C4F9004212CF /* en.lproj */,
 				F828C5B81981C4F9004212CF /* Images.xcassets */,
 				F828C5B91981C4F9004212CF /* main.m */,
@@ -1560,6 +1582,32 @@
 			path = Flags;
 			sourceTree = "<group>";
 		};
+		F828CA631982BB32004212CF /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				F828CA611982BAC9004212CF /* libNendAd.a */,
+				F828CA5F1982BA9A004212CF /* ImageIO.framework */,
+				F828CA5D1982BA89004212CF /* AdSupport.framework */,
+				F828CA5B1982BA7F004212CF /* Security.framework */,
+				F828CA641982BB32004212CF /* NendAd */,
+			);
+			name = Library;
+			path = SmartFlag/Library;
+			sourceTree = "<group>";
+		};
+		F828CA641982BB32004212CF /* NendAd */ = {
+			isa = PBXGroup;
+			children = (
+				F828CA651982BB32004212CF /* libNendAd.a */,
+				F828CA661982BB32004212CF /* NADIconArrayView.h */,
+				F828CA671982BB32004212CF /* NADIconLoader.h */,
+				F828CA681982BB32004212CF /* NADIconView.h */,
+				F828CA691982BB32004212CF /* NADView.h */,
+				F828CA6A1982BB32004212CF /* NADView_readme.txt */,
+			);
+			path = NendAd;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1894,6 +1942,7 @@
 				F828C9F61982A654004212CF /* md.png in Resources */,
 				F828C8C21981C4FA004212CF /* flag_data_all.plist in Resources */,
 				F828C7EE1981C4FA004212CF /* lu50.png in Resources */,
+				F828CA6C1982BB32004212CF /* NADView_readme.txt in Resources */,
 				F828C7B51981C4FA004212CF /* bt50.png in Resources */,
 				F828C7D91981C4FA004212CF /* at50.png in Resources */,
 				F828C8131981C4FA004212CF /* pg50.png in Resources */,
@@ -2205,6 +2254,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmartFlag/SmartFlag-Prefix.pch";
 				INFOPLIST_FILE = "SmartFlag/SmartFlag-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartFlag/Library/NendAd",
+				);
 				PRODUCT_NAME = SmartFlag;
 				PROVISIONING_PROFILE = "32E01073-2AAB-4C6E-9013-9C7071D87D31";
 				WRAPPER_EXTENSION = app;
@@ -2220,6 +2273,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmartFlag/SmartFlag-Prefix.pch";
 				INFOPLIST_FILE = "SmartFlag/SmartFlag-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartFlag/Library/NendAd",
+				);
 				PRODUCT_NAME = SmartFlag;
 				PROVISIONING_PROFILE = "32E01073-2AAB-4C6E-9013-9C7071D87D31";
 				WRAPPER_EXTENSION = app;

@@ -10,8 +10,9 @@
 #import "APLTransitionController.h"
 #import "AbstractCollectionViewController.h"
 #import "LeftMenuViewController.h"
+#import "NADView.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate,UINavigationControllerDelegate, APLTransitionControllerDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,UINavigationControllerDelegate, APLTransitionControllerDelegate, NADViewDelegate>
 {
     BOOL leftMenuShowing;
     LeftMenuViewController *leftMenuViewController;
@@ -23,5 +24,6 @@
 @property (nonatomic) APLTransitionController *transitionController;
 @property (nonatomic) BOOL leftMenuShowing;
 @property (strong, nonatomic) LeftMenuViewController *leftMenuViewController;
+@property (nonatomic, retain) NADView * nadView;
 
 @end

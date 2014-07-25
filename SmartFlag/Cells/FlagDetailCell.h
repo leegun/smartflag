@@ -10,12 +10,12 @@
 
 @interface FlagDetailCell : UICollectionViewCell
 {
-    UIImageView * bgImage;
+    UIButton * bgImage;
     UILabel * name;
     UIButton * link;
 }
 
-@property (nonatomic) UIImageView * bgImage;
+@property (nonatomic) UIButton * bgImage;
 @property (nonatomic) UILabel * name;
 @property (nonatomic) UIButton * link;
 
