@@ -1,6 +1,6 @@
 //
 //  FlagIconCell.h
-//  StudyFlagApp
+//  SmartFlag
 //
 //  Created by Lee Geunil on 2014/07/12.
 //  Copyright (c) 2014年 Lee Geunil. All rights reserved.

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F826B5291970F0CF00A9D390"
-               BuildableName = "StudyFlagApp.app"
+               BuildableName = "SmartFlag.app"
                BlueprintName = "SmartFlag"
                ReferencedContainer = "container:SmartFlag.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F826B54A1970F0D000A9D390"
-               BuildableName = "StudyFlagAppTests.xctest"
+               BuildableName = "SmartFlagTests.xctest"
                BlueprintName = "SmartFlagTests"
                ReferencedContainer = "container:SmartFlag.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F826B5291970F0CF00A9D390"
-            BuildableName = "StudyFlagApp.app"
+            BuildableName = "SmartFlag.app"
             BlueprintName = "SmartFlag"
             ReferencedContainer = "container:SmartFlag.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F826B5291970F0CF00A9D390"
-            BuildableName = "StudyFlagApp.app"
+            BuildableName = "SmartFlag.app"
             BlueprintName = "SmartFlag"
             ReferencedContainer = "container:SmartFlag.xcodeproj">
          </BuildableReference>
@@ -80,7 +80,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F826B5291970F0CF00A9D390"
-            BuildableName = "StudyFlagApp.app"
+            BuildableName = "SmartFlag.app"
             BlueprintName = "SmartFlag"
             ReferencedContainer = "container:SmartFlag.xcodeproj">
          </BuildableReference>

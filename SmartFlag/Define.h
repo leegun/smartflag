@@ -1,13 +1,13 @@
 //
 //  Define.h
-//  StudyFlagApp
+//  SmartFlag
 //
 //  Created by Lee Geunil on 2014/07/19.
 //  Copyright (c) 2014年 Lee Geunil. All rights reserved.
 //
 
-#ifndef StudyFlagApp_Define_h
-#define StudyFlagApp_Define_h
+#ifndef SmartFlag_Define_h
+#define SmartFlag_Define_h
 
 //image const
 #define IMAGE_NAME @"%@.png"
