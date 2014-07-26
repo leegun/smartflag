@@ -12,8 +12,8 @@
 
 +(void)initUserDefalut
 {
-    if ([self getUserDefalut:USER_DEFAULT_LOCALE] == nil) {
-        [self setUserDefalut:USER_DEFAULT_LOCALE value:ENGLISH];
+    if ([self getUserDefalut:USER_DEFAULT_LANGUAGE] == nil) {
+        [self setUserDefalut:USER_DEFAULT_LANGUAGE value:ENGLISH];
     }
 
     if ([self getUserDefalut:USER_DEFAULT_AREA] == nil) {
@@ -64,6 +64,18 @@
         return areaArray;
     }
     
+}
+
++(NSString *)setLanguage:(NSString *)key
+{
+    NSString * language = [NSString stringWithFormat:@"localize_%@",[self getUserDefalut:USER_DEFAULT_LANGUAGE]];
+    NSString * languagePath = [[NSBundle mainBundle] pathForResource:language ofType:@"plist"];
+    NSDictionary * languageDic = [NSDictionary dictionaryWithContentsOfFile:languagePath];
+    
+//    NSLog(@"language = %@",language);
+//    NSLog(@"return = %@",[languageDic objectForKey:key]);
+    
+    return [languageDic objectForKey:key];
 }
 
 @end

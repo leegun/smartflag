@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>section_language</key>
+	<string>Select Language</string>
+	<key>section_area</key>
+	<string>Select Area</string>
+	<key>section_support</key>
+	<string>Support</string>
+	<key>section_other</key>
+	<string>Other</string>
+	<key>language_english</key>
+	<string>English</string>
+	<key>language_japanese</key>
+	<string>Japanese</string>
+	<key>area_world</key>
+	<string>All</string>
+	<key>area_africa</key>
+	<string>Africa</string>
+	<key>area_america</key>
+	<string>America</string>
+	<key>area_asia</key>
+	<string>Asia</string>
+	<key>area_europe</key>
+	<string>Europe</string>
+	<key>area_oceania</key>
+	<string>Oceania</string>
+	<key>review</key>
+	<string>Review</string>
+	<key>wikipedia</key>
+	<string>Wikipedia</string>
+</dict>
+</plist>

@@ -114,8 +114,8 @@
             switch (indexPath.row) {
                 case TAG_ROW_LOCAL_01:
                 {
-                    cell.name.text = @"English";
-                    if ([Utils checkMark:USER_DEFAULT_LOCALE value:ENGLISH]) {
+                    cell.name.text = [Utils setLanguage:@"language_english"];
+                    if ([Utils checkMark:USER_DEFAULT_LANGUAGE value:ENGLISH]) {
                         cell.accessoryType = UITableViewCellAccessoryCheckmark;
                     } else {
                         cell.accessoryType = UITableViewCellAccessoryNone;
@@ -124,8 +124,8 @@
                     break;
                 case TAG_ROW_LOCAL_02:
                 {
-                    cell.name.text = @"Japan";
-                    if ([Utils checkMark:USER_DEFAULT_LOCALE value:JAPAN]) {
+                    cell.name.text = [Utils setLanguage:@"language_japanese"];
+                    if ([Utils checkMark:USER_DEFAULT_LANGUAGE value:JAPANESE]) {
                         cell.accessoryType = UITableViewCellAccessoryCheckmark;
                     } else {
                         cell.accessoryType = UITableViewCellAccessoryNone;
@@ -143,7 +143,7 @@
             switch (indexPath.row) {
                 case TAG_ROW_AREA_00:
                 {
-                    cell.name.text = @"ALL";
+                    cell.name.text = [Utils setLanguage:@"area_world"];
                     if ([Utils checkMark:USER_DEFAULT_AREA value:AREA_WORLD]) {
                         cell.accessoryType = UITableViewCellAccessoryCheckmark;
                     } else {
@@ -153,7 +153,7 @@
                     break;
                 case TAG_ROW_AREA_01:
                 {
-                    cell.name.text = @"AFRICA";
+                    cell.name.text = [Utils setLanguage:@"area_africa"];
                     if ([Utils checkMark:USER_DEFAULT_AREA value:AREA_AFRICA]) {
                         cell.accessoryType = UITableViewCellAccessoryCheckmark;
                     } else {
@@ -163,7 +163,7 @@
                     break;
                 case TAG_ROW_AREA_02:
                 {
-                    cell.name.text = @"AMERICA";
+                    cell.name.text = [Utils setLanguage:@"area_america"];
                     if ([Utils checkMark:USER_DEFAULT_AREA value:AREA_AMERICA]) {
                         cell.accessoryType = UITableViewCellAccessoryCheckmark;
                     } else {
@@ -173,7 +173,7 @@
                     break;
                 case TAG_ROW_AREA_03:
                 {
-                    cell.name.text = @"ASIA";
+                    cell.name.text = [Utils setLanguage:@"area_asia"];
                     if ([Utils checkMark:USER_DEFAULT_AREA value:AREA_ASIA]) {
                         cell.accessoryType = UITableViewCellAccessoryCheckmark;
                     } else {
@@ -183,7 +183,7 @@
                     break;
                 case TAG_ROW_AREA_04:
                 {
-                    cell.name.text = @"EUROPE";
+                    cell.name.text = [Utils setLanguage:@"area_europe"];
                     if ([Utils checkMark:USER_DEFAULT_AREA value:AREA_EUROPE]) {
                         cell.accessoryType = UITableViewCellAccessoryCheckmark;
                     } else {
@@ -193,7 +193,7 @@
                     break;
                 case TAG_ROW_AREA_05:
                 {
-                    cell.name.text = @"OCEANIA";
+                    cell.name.text = [Utils setLanguage:@"area_oceania"];
                     if ([Utils checkMark:USER_DEFAULT_AREA value:AREA_OCEANIA]) {
                         cell.accessoryType = UITableViewCellAccessoryCheckmark;
                     } else {
@@ -212,7 +212,7 @@
             switch (indexPath.row) {
                 case TAG_ROW_SUPPORT_01:
                 {
-                    cell.name.text = @"Support";
+                    cell.name.text = [Utils setLanguage:@"section_support"];
                 }
                     break;
 
@@ -226,7 +226,7 @@
             switch (indexPath.row) {
                 case TAG_ROW_ATHER_01:
                 {
-                    cell.name.text = @"Review";
+                    cell.name.text = [Utils setLanguage:@"review"];
                 }
                     break;
                     
@@ -245,16 +245,16 @@
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     switch(section) {
         case TAG_SECTION_LOCAL:
-            return @"言語選択";
+            return [Utils setLanguage:@"section_language"];
             break;
         case TAG_SECTION_AREA:
-            return @"地域選択";
+            return [Utils setLanguage:@"section_area"];
             break;
         case TAG_SECTION_SUPPORT:
-            return @"サポート";
+            return [Utils setLanguage:@"section_support"];
             break;
         case TAG_SECTION_ATHER:
-            return @"その他";
+            return [Utils setLanguage:@"section_other"];
             break;
         default:
             return nil;
@@ -269,13 +269,13 @@
             switch (indexPath.row) {
                 case TAG_ROW_LOCAL_01:
                 {
-                    [Utils setUserDefalut:USER_DEFAULT_LOCALE value:ENGLISH];
+                    [Utils setUserDefalut:USER_DEFAULT_LANGUAGE value:ENGLISH];
                     [leftTableView reloadData];
                 }
                     break;
                 case TAG_ROW_LOCAL_02:
                 {
-                    [Utils setUserDefalut:USER_DEFAULT_LOCALE value:JAPAN];
+                    [Utils setUserDefalut:USER_DEFAULT_LANGUAGE value:JAPANESE];
                     [leftTableView reloadData];
                 }
                     break;

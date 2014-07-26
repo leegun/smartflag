@@ -447,6 +447,14 @@
 		F828CA621982BAC9004212CF /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F828CA611982BAC9004212CF /* libNendAd.a */; };
 		F828CA6B1982BB32004212CF /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F828CA651982BB32004212CF /* libNendAd.a */; };
 		F828CA6C1982BB32004212CF /* NADView_readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = F828CA6A1982BB32004212CF /* NADView_readme.txt */; };
+		F8B6DD0F198372FA00430C1B /* sc01.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B6DD0A198372FA00430C1B /* sc01.png */; };
+		F8B6DD10198372FA00430C1B /* sc02.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B6DD0B198372FA00430C1B /* sc02.png */; };
+		F8B6DD11198372FA00430C1B /* sc03.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B6DD0C198372FA00430C1B /* sc03.png */; };
+		F8B6DD12198372FA00430C1B /* sc04.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B6DD0D198372FA00430C1B /* sc04.png */; };
+		F8B6DD13198372FA00430C1B /* sc05.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B6DD0E198372FA00430C1B /* sc05.png */; };
+		F8B6DD16198376B800430C1B /* BaseAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6DD15198376B800430C1B /* BaseAnimationView.m */; };
+		F8B6DD1C1983ABA800430C1B /* localize_en.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8B6DD1A1983ABA800430C1B /* localize_en.plist */; };
+		F8B6DD1D1983ABA800430C1B /* localize_ja.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8B6DD1B1983ABA800430C1B /* localize_ja.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -922,6 +930,15 @@
 		F828CA681982BB32004212CF /* NADIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconView.h; sourceTree = "<group>"; };
 		F828CA691982BB32004212CF /* NADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADView.h; sourceTree = "<group>"; };
 		F828CA6A1982BB32004212CF /* NADView_readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NADView_readme.txt; sourceTree = "<group>"; };
+		F8B6DD0A198372FA00430C1B /* sc01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc01.png; sourceTree = "<group>"; };
+		F8B6DD0B198372FA00430C1B /* sc02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc02.png; sourceTree = "<group>"; };
+		F8B6DD0C198372FA00430C1B /* sc03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc03.png; sourceTree = "<group>"; };
+		F8B6DD0D198372FA00430C1B /* sc04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc04.png; sourceTree = "<group>"; };
+		F8B6DD0E198372FA00430C1B /* sc05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc05.png; sourceTree = "<group>"; };
+		F8B6DD14198376B800430C1B /* BaseAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAnimationView.h; sourceTree = "<group>"; };
+		F8B6DD15198376B800430C1B /* BaseAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAnimationView.m; sourceTree = "<group>"; };
+		F8B6DD1A1983ABA800430C1B /* localize_en.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = localize_en.plist; sourceTree = "<group>"; };
+		F8B6DD1B1983ABA800430C1B /* localize_ja.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = localize_ja.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -976,6 +993,8 @@
 			children = (
 				F828C5A91981C4F9004212CF /* APLTransitionController.h */,
 				F828C5AA1981C4F9004212CF /* APLTransitionController.m */,
+				F8B6DD14198376B800430C1B /* BaseAnimationView.h */,
+				F8B6DD15198376B800430C1B /* BaseAnimationView.m */,
 			);
 			name = Animations;
 			path = SmartFlag/Animations;
@@ -1018,6 +1037,7 @@
 			isa = PBXGroup;
 			children = (
 				F828C5BE1981C4F9004212CF /* Images */,
+				F8B6DD191983ABA800430C1B /* Localize */,
 				F828C7361981C4FA004212CF /* Plists */,
 			);
 			name = Resouces;
@@ -1027,6 +1047,7 @@
 		F828C5BE1981C4F9004212CF /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				F8B6DD09198372FA00430C1B /* Animations */,
 				F828C5BF1981C4F9004212CF /* App */,
 				F828C8CE1982A654004212CF /* Flags */,
 				F828C5C21981C4F9004212CF /* FlagAreas */,
@@ -1608,6 +1629,27 @@
 			path = NendAd;
 			sourceTree = "<group>";
 		};
+		F8B6DD09198372FA00430C1B /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				F8B6DD0A198372FA00430C1B /* sc01.png */,
+				F8B6DD0B198372FA00430C1B /* sc02.png */,
+				F8B6DD0C198372FA00430C1B /* sc03.png */,
+				F8B6DD0D198372FA00430C1B /* sc04.png */,
+				F8B6DD0E198372FA00430C1B /* sc05.png */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		F8B6DD191983ABA800430C1B /* Localize */ = {
+			isa = PBXGroup;
+			children = (
+				F8B6DD1A1983ABA800430C1B /* localize_en.plist */,
+				F8B6DD1B1983ABA800430C1B /* localize_ja.plist */,
+			);
+			path = Localize;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1703,6 +1745,7 @@
 				F828C7921981C4FA004212CF /* br50.png in Resources */,
 				F828C9DD1982A654004212CF /* jo.png in Resources */,
 				F828C7571981C4FA004212CF /* setting.png in Resources */,
+				F8B6DD13198372FA00430C1B /* sc05.png in Resources */,
 				F828C7FD1981C4FA004212CF /* sm50.png in Resources */,
 				F828C9E81982A654004212CF /* kz.png in Resources */,
 				F828C7891981C4FA004212CF /* tz50.png in Resources */,
@@ -1743,6 +1786,7 @@
 				F828CA521982ACB5004212CF /* ve.png in Resources */,
 				F828C8211981C4FA004212CF /* eu50.png in Resources */,
 				F828CA3E1982A654004212CF /* va.png in Resources */,
+				F8B6DD11198372FA00430C1B /* sc03.png in Resources */,
 				F828C9DA1982A654004212CF /* is.png in Resources */,
 				F828C7CD1981C4FA004212CF /* pk50.png in Resources */,
 				F828C7651981C4FA004212CF /* eg50.png in Resources */,
@@ -1887,6 +1931,7 @@
 				F828C7F51981C4FA004212CF /* no50.png in Resources */,
 				F828C8271981C4FA004212CF /* olimpic50.png in Resources */,
 				F828C8291981C4FA004212CF /* scl50.png in Resources */,
+				F8B6DD1C1983ABA800430C1B /* localize_en.plist in Resources */,
 				F828C9AF1982A654004212CF /* cn.png in Resources */,
 				F828CA251982A654004212CF /* sl.png in Resources */,
 				F828C7D31981C4FA004212CF /* tl50.png in Resources */,
@@ -1995,6 +2040,7 @@
 				F828C9EA1982A654004212CF /* lb.png in Resources */,
 				F828C9DC1982A654004212CF /* jm.png in Resources */,
 				F828C76A1981C4FA004212CF /* gm50.png in Resources */,
+				F8B6DD12198372FA00430C1B /* sc04.png in Resources */,
 				F828CA291982A654004212CF /* sr.png in Resources */,
 				F828C7B81981C4FA004212CF /* id50.png in Resources */,
 				F828C9B91982A654004212CF /* do.png in Resources */,
@@ -2068,12 +2114,14 @@
 				F828C7F11981C4FA004212CF /* mk50.png in Resources */,
 				F828CA501982AC82004212CF /* ug.png in Resources */,
 				F828C78D1981C4FA004212CF /* zw50.png in Resources */,
+				F8B6DD1D1983ABA800430C1B /* localize_ja.plist in Resources */,
 				F828CA4C1982AB3F004212CF /* to.png in Resources */,
 				F828C8191981C4FA004212CF /* ws50.png in Resources */,
 				F828C9EF1982A654004212CF /* ls.png in Resources */,
 				F828C7C61981C4FA004212CF /* mm50.png in Resources */,
 				F828C7531981C4FA004212CF /* Images.xcassets in Resources */,
 				F828C81E1981C4FA004212CF /* bm50.png in Resources */,
+				F8B6DD0F198372FA00430C1B /* sc01.png in Resources */,
 				F828C7C51981C4FA004212CF /* lk50.png in Resources */,
 				F828C80F1981C4FA004212CF /* ki50.png in Resources */,
 				F828CA3F1982A654004212CF /* vc.png in Resources */,
@@ -2095,6 +2143,7 @@
 				F828C9FF1982A654004212CF /* mt.png in Resources */,
 				F828CA2E1982A654004212CF /* sz.png in Resources */,
 				F828CA031982A654004212CF /* mx.png in Resources */,
+				F8B6DD10198372FA00430C1B /* sc02.png in Resources */,
 				F828CA2F1982A654004212CF /* td.png in Resources */,
 				F828C9B81982A654004212CF /* dm.png in Resources */,
 				F828C7CB1981C4FA004212CF /* om50.png in Resources */,
@@ -2128,6 +2177,7 @@
 				F828C8C71981C4FA004212CF /* FlagViewController.m in Sources */,
 				F828C7551981C4FA004212CF /* PageManager.m in Sources */,
 				F828C7501981C4FA004212CF /* FlagIconCell.m in Sources */,
+				F8B6DD16198376B800430C1B /* BaseAnimationView.m in Sources */,
 				F828C8C41981C4FA004212CF /* Utils.m in Sources */,
 				F828C74E1981C4FA004212CF /* AppDelegate.m in Sources */,
 				F828C8C51981C4FA004212CF /* AbstractCollectionViewController.m in Sources */,

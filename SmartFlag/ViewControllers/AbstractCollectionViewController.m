@@ -70,7 +70,7 @@
         } else {
             [cell.bgImage setBackgroundImage:image forState:UIControlStateNormal];
         }
-        cell.name.text = [flagData objectForKey:[[NSUserDefaults standardUserDefaults] objectForKey:USER_DEFAULT_LOCALE]];
+        cell.name.text = [flagData objectForKey:[[NSUserDefaults standardUserDefaults] objectForKey:USER_DEFAULT_LANGUAGE]];
         [cell.link addTarget:self action:@selector(onLink:) forControlEvents:UIControlEventTouchUpInside];
         cell.link.tag = indexPath.row;
 
@@ -87,7 +87,7 @@
 - (void)onLink:(UIButton *)button
 {
     NSDictionary * data = [flagDataArray objectAtIndex:button.tag];
-    NSString * locale = [Utils getUserDefalut:USER_DEFAULT_LOCALE];
+    NSString * locale = [Utils getUserDefalut:USER_DEFAULT_LANGUAGE];
     NSString * wikiUrl = [NSString stringWithFormat:WIKI_URL,locale,[data objectForKey:locale]];
     [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFY_SHOW_WEB_VIEW object:wikiUrl];
 }

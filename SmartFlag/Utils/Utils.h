@@ -15,5 +15,6 @@
 +(id)getUserDefalut:(NSString *)key;
 +(BOOL)checkMark:(NSString *)key value:(NSString *)value;
 +(NSArray *)getAreaData;
++(NSString *)setLanguage:(NSString *)key;
 
 @end

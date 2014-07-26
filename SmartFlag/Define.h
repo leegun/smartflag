@@ -15,7 +15,7 @@
 
 //locale const
 #define ENGLISH @"en"
-#define JAPAN @"ja"
+#define JAPANESE @"ja"
 
 //area const
 #define AREA_WORLD @"all"
@@ -40,7 +40,7 @@
 #define NOTIFY_HIDE_LOADING_VIEW @"NOTIFY_HIDE_LOADING_VIEW"
 
 //user default
-#define USER_DEFAULT_LOCALE @"USER_DEFAULT_LOCALE"
+#define USER_DEFAULT_LANGUAGE @"USER_DEFAULT_LANGUAGE"
 #define USER_DEFAULT_AREA @"USER_DEFAULT_AREA"
 
 //url const
