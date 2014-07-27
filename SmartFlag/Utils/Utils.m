@@ -19,6 +19,10 @@
     if ([self getUserDefalut:USER_DEFAULT_AREA] == nil) {
         [self setUserDefalut:USER_DEFAULT_AREA value:AREA_WORLD];
     }
+    
+    if ([self getUserDefalut:USER_DEFAULT_SORT] == nil) {
+        [self setUserDefalut:USER_DEFAULT_SORT value:SORT_LINE_VERTICAL];
+    }
 }
 
 +(void)setUserDefalut:(NSString *)key value:(id)value
@@ -63,6 +67,29 @@
         }
         return areaArray;
     }
+    
+}
+
++(NSArray *)getSortData
+{
+    NSString * dataPath = [[NSBundle mainBundle] pathForResource:@"flag_data_all" ofType:@"plist"];
+    NSMutableArray * dataArray = [NSArray arrayWithContentsOfFile:dataPath];
+    NSMutableArray * sortArray = [NSMutableArray new];
+    
+    NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
+    NSString * sortStr = [defaults objectForKey:USER_DEFAULT_SORT];
+    for (NSDictionary * data in dataArray) {
+        
+        if ([[data objectForKey:sortStr] boolValue]) {
+            [sortArray addObject:data];
+        }
+    }
+    
+    if (sortArray.count == 0) {
+        sortArray = dataArray;
+    }
+    
+    return sortArray;
     
 }
 

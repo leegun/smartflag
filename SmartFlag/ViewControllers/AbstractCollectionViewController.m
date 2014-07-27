@@ -135,6 +135,18 @@
                                                       
                                                   }];
     
+    [[NSNotificationCenter defaultCenter] addObserverForName:NOTIFY_FLAG_VIEW_SORT
+                                                      object:nil
+                                                       queue:[NSOperationQueue mainQueue]
+                                                  usingBlock:^(NSNotification *notification) {
+                                                      
+                                                      //フラグデータ取得
+                                                      weakSelf.flagDataArray = [Utils getSortData];
+                                                      
+                                                      [weakSelf.collectionView reloadData];
+                                                      
+                                                  }];
+    
 }
 
 @end

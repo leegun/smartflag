@@ -8,6 +8,10 @@
 
 #import "OptionButtonView.h"
 
+#define TAG_SORT_LINE_VERTICAL      0
+#define TAG_SORT_LINE_HORIZONTAL    1
+#define TAG_SORT_STAR               2
+
 @implementation OptionButtonView
 
 - (id)initWithOwner:(id)owner
@@ -18,12 +22,17 @@
     self = [super initWithFrame:CGRectMake(10, vcFrame.size.height - 120, 50, 50)];
     if (self) {
         
+        //長押しフラグ初期化
+        longTapFlag = NO;
+        
         //オプションボタン
         menuBtn = [UIButton buttonWithType:UIButtonTypeCustom];
         menuBtn.frame = CGRectMake(0, 0, 50, 50);
         [menuBtn setBackgroundImage:[UIImage imageNamed:@"setting.png"] forState:UIControlStateNormal];
         [menuBtn addTarget:owner action:@selector(onMenu:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:menuBtn];
+        UILongPressGestureRecognizer *longPressGesture = [[UILongPressGestureRecognizer alloc]initWithTarget:self action:@selector(longTapMenuBtn:)];
+        [menuBtn addGestureRecognizer:longPressGesture];
         
         //閉じるボタン
         closeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -37,6 +46,51 @@
         [self setupNotifications];
     }
     return self;
+}
+
+- (void)longTapMenuBtn:(UILongPressGestureRecognizer *)sender
+{
+    NSLog(@"long tap");
+    if (!longTapFlag) {
+        longTapFlag = YES;
+        UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:[Utils setLanguage:@"sort_title"]
+                                                           delegate:self
+                                                  cancelButtonTitle:[Utils setLanguage:@"sort_cancel"]
+                                             destructiveButtonTitle:nil
+                                                  otherButtonTitles:[Utils setLanguage:@"sort_line_vertical"],
+                                                                    [Utils setLanguage:@"sort_line_horizontal"],
+                                                                    [Utils setLanguage:@"sort_star"],nil];
+        [sheet showInView:self.window];
+    }
+}
+
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    longTapFlag = NO;
+    if(buttonIndex==actionSheet.cancelButtonIndex){
+        return;
+    }
+    
+    switch (buttonIndex) {
+        case TAG_SORT_LINE_VERTICAL:
+        {
+            [Utils setUserDefalut:USER_DEFAULT_SORT value:SORT_LINE_VERTICAL];
+        }
+            break;
+        case TAG_SORT_LINE_HORIZONTAL:
+        {
+            [Utils setUserDefalut:USER_DEFAULT_SORT value:SORT_LINE_HORIZONTAL];
+        }
+            break;
+        case TAG_SORT_STAR:
+        {
+            [Utils setUserDefalut:USER_DEFAULT_SORT value:SORT_STAR];
+        }
+            break;
+        default:
+            break;
+    }
+    [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFY_FLAG_VIEW_SORT object:nil];
 }
 
 - (void)showMenuBtn

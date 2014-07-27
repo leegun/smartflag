@@ -64,6 +64,7 @@
     leftTableView.dataSource = self;
     leftTableView.delegate = self;
     leftTableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+    [leftTableView setContentInset:UIEdgeInsetsMake(0, 0, 60, 0)];
     [self.view addSubview:leftTableView];
     
     [leftTableView registerClass:[LeftMenuBaseCell class] forCellReuseIdentifier:CELL_LEFT_MENU_BASE];

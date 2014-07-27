@@ -11,6 +11,12 @@
 		<string>アフガニスタン</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -21,6 +27,12 @@
 		<string>オーランド諸島</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -31,6 +43,12 @@
 		<string>アルバニア</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -41,6 +59,12 @@
 		<string>アルジェリア</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -51,6 +75,12 @@
 		<string>アメリカ領サモア</string>
 		<key>area</key>
 		<string>oceania</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -61,6 +91,12 @@
 		<string>アンドラ</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -71,6 +107,12 @@
 		<string>アンゴラ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -81,6 +123,12 @@
 		<string>アンギラ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -91,6 +139,12 @@
 		<string>アンティグア・バーブーダ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -101,6 +155,12 @@
 		<string>アルゼンチン</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -111,6 +171,12 @@
 		<string>アルメニア</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -121,6 +187,12 @@
 		<string>アルバ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -131,6 +203,12 @@
 		<string>オーストラリア</string>
 		<key>area</key>
 		<string>oceania</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -141,6 +219,12 @@
 		<string>オーストリア</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -151,6 +235,12 @@
 		<string>アゼルバイジャン</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -161,6 +251,12 @@
 		<string>バハマ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -171,6 +267,12 @@
 		<string>バーレーン</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -181,6 +283,12 @@
 		<string>バングラデシュ</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -191,6 +299,12 @@
 		<string>バルバドス</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -201,6 +315,12 @@
 		<string>ベラルーシ</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -211,6 +331,12 @@
 		<string>ベルギー</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -221,6 +347,12 @@
 		<string>ベリーズ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -231,6 +363,12 @@
 		<string>ベナン</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -241,6 +379,12 @@
 		<string>バミューダ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -251,6 +395,12 @@
 		<string>ブータン</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -261,6 +411,12 @@
 		<string>ボリビア多民族国</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -271,6 +427,12 @@
 		<string>ボスニア・ヘルツェゴビナ</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -281,6 +443,12 @@
 		<string>ボツワナ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -291,6 +459,12 @@
 		<string>ブラジル</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -301,6 +475,12 @@
 		<string>イギリス領インド洋地域</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -311,6 +491,12 @@
 		<string>ブルネイ・ダルサラーム</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -321,6 +507,12 @@
 		<string>ブルガリア</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -331,6 +523,12 @@
 		<string>ブルキナファソ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -341,6 +539,12 @@
 		<string>ブルンジ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -351,6 +555,12 @@
 		<string>カンボジア</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -361,6 +571,12 @@
 		<string>カメルーン</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -371,6 +587,12 @@
 		<string>カナダ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -381,6 +603,12 @@
 		<string>カーボベルデ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -391,6 +619,12 @@
 		<string>中央アフリカ共和国</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -401,6 +635,12 @@
 		<string>チャド</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -411,6 +651,12 @@
 		<string>チリ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -421,6 +667,12 @@
 		<string>中華人民共和国</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -431,6 +683,12 @@
 		<string>コロンビア</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -441,6 +699,12 @@
 		<string>コモロ</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -451,6 +715,12 @@
 		<string>コンゴ共和国</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -461,6 +731,12 @@
 		<string>コンゴ民主共和国</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -471,6 +747,12 @@
 		<string>コスタリカ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -481,6 +763,12 @@
 		<string>コートジボワール</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -491,6 +779,12 @@
 		<string>クロアチア</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -501,6 +795,12 @@
 		<string>キューバ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -511,6 +811,12 @@
 		<string>キプロス</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -521,6 +827,12 @@
 		<string>チェコ</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -531,6 +843,12 @@
 		<string>デンマーク</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -541,6 +859,12 @@
 		<string>ジブチ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -551,6 +875,12 @@
 		<string>ドミニカ国</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -561,6 +891,12 @@
 		<string>ドミニカ共和国</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -571,6 +907,12 @@
 		<string>エクアドル</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -581,6 +923,12 @@
 		<string>エジプト</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -591,6 +939,12 @@
 		<string>エルサルバドル</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -601,6 +955,12 @@
 		<string>赤道ギニア</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -611,6 +971,12 @@
 		<string>エリトリア</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -621,6 +987,12 @@
 		<string>エストニア</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -631,6 +1003,12 @@
 		<string>エチオピア</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -641,6 +1019,12 @@
 		<string>フォークランド（マルビナス）諸島</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -651,6 +1035,12 @@
 		<string>フェロー諸島</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -661,6 +1051,12 @@
 		<string>フランス</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -671,6 +1067,12 @@
 		<string>フランス領ギアナ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -681,6 +1083,12 @@
 		<string>ガンビア</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -691,6 +1099,12 @@
 		<string>グルジア</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -701,6 +1115,12 @@
 		<string>ドイツ</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -711,6 +1131,12 @@
 		<string>ガーナ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -721,6 +1147,12 @@
 		<string>ギリシャ</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -731,6 +1163,12 @@
 		<string>グレナダ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -741,6 +1179,12 @@
 		<string>グアテマラ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -751,6 +1195,12 @@
 		<string>ギニア</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -761,6 +1211,12 @@
 		<string>ギニアビサウ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -771,6 +1227,12 @@
 		<string>ガイアナ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -781,6 +1243,12 @@
 		<string>ハイチ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -791,6 +1259,12 @@
 		<string>バチカン市国</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -801,6 +1275,12 @@
 		<string>ホンジュラス</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -811,6 +1291,12 @@
 		<string>香港</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -821,6 +1307,12 @@
 		<string>ハンガリー</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -831,6 +1323,12 @@
 		<string>アイスランド</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -841,6 +1339,12 @@
 		<string>インド</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -851,6 +1355,12 @@
 		<string>インドネシア</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -861,6 +1371,12 @@
 		<string>イラン・イスラム共和国</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -871,6 +1387,12 @@
 		<string>イラク</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -881,6 +1403,12 @@
 		<string>アイルランド</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -891,6 +1419,12 @@
 		<string>イスラエル</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -901,6 +1435,12 @@
 		<string>イタリア</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -911,6 +1451,12 @@
 		<string>ジャマイカ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -921,6 +1467,12 @@
 		<string>日本</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -931,6 +1483,12 @@
 		<string>ヨルダン</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -941,6 +1499,12 @@
 		<string>カザフスタン</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -951,6 +1515,12 @@
 		<string>ケニア</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -961,6 +1531,12 @@
 		<string>キリバス</string>
 		<key>area</key>
 		<string>oceania</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -971,6 +1547,12 @@
 		<string>朝鮮民主主義人民共和国</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -981,6 +1563,12 @@
 		<string>韓国</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -991,6 +1579,12 @@
 		<string>クウェート</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1001,6 +1595,12 @@
 		<string>キルギス</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1011,6 +1611,12 @@
 		<string>ラオス人民民主共和国</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1021,6 +1627,12 @@
 		<string>ラトビア</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1031,6 +1643,12 @@
 		<string>レバノン</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1041,6 +1659,12 @@
 		<string>レソト</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1051,6 +1675,12 @@
 		<string>リベリア</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1061,6 +1691,12 @@
 		<string>リビア</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1071,6 +1707,12 @@
 		<string>リヒテンシュタイン</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1081,6 +1723,12 @@
 		<string>リトアニア</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1091,6 +1739,12 @@
 		<string>ルクセンブルク</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1101,6 +1755,12 @@
 		<string>マケドニア旧ユーゴスラビア共和国</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1111,6 +1771,12 @@
 		<string>マダガスカル</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1121,6 +1787,12 @@
 		<string>マラウイ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1131,6 +1803,12 @@
 		<string>マレーシア</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1141,6 +1819,12 @@
 		<string>モルディブ</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1151,6 +1835,12 @@
 		<string>マルタ</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1161,6 +1851,12 @@
 		<string>マーシャル諸島</string>
 		<key>area</key>
 		<string>oceania</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1171,6 +1867,12 @@
 		<string>モーリタニア</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1181,6 +1883,12 @@
 		<string>モーリシャス</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1191,6 +1899,12 @@
 		<string>メキシコ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1201,6 +1915,12 @@
 		<string>ミクロネシア連邦</string>
 		<key>area</key>
 		<string>oceania</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1211,6 +1931,12 @@
 		<string>モルドバ共和国</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1221,6 +1947,12 @@
 		<string>モナコ</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1231,6 +1963,12 @@
 		<string>モンゴル</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1241,6 +1979,12 @@
 		<string>モロッコ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1251,6 +1995,12 @@
 		<string>モザンビーク</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1261,6 +2011,12 @@
 		<string>ミャンマー</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1271,6 +2027,12 @@
 		<string>ナミビア</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1281,6 +2043,12 @@
 		<string>ナウル</string>
 		<key>area</key>
 		<string>oceania</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1291,6 +2059,12 @@
 		<string>ネパール</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1301,6 +2075,12 @@
 		<string>オランダ</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1311,6 +2091,12 @@
 		<string>ニュージーランド</string>
 		<key>area</key>
 		<string>oceania</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1321,6 +2107,12 @@
 		<string>ニカラグア</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1331,6 +2123,12 @@
 		<string>ニジェール</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1341,6 +2139,12 @@
 		<string>ナイジェリア</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1351,6 +2155,12 @@
 		<string>ノルウェー</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1361,6 +2171,12 @@
 		<string>オマーン</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1371,6 +2187,12 @@
 		<string>パキスタン</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1381,6 +2203,12 @@
 		<string>パラオ</string>
 		<key>area</key>
 		<string>oceania</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1391,6 +2219,12 @@
 		<string>パナマ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1401,6 +2235,12 @@
 		<string>パプアニューギニア</string>
 		<key>area</key>
 		<string>oceania</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1411,6 +2251,12 @@
 		<string>パラグアイ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1421,6 +2267,12 @@
 		<string>ペルー</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1431,6 +2283,12 @@
 		<string>フィリピン</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1441,6 +2299,12 @@
 		<string>ポーランド</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1451,6 +2315,12 @@
 		<string>ポルトガル</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1461,6 +2331,12 @@
 		<string>カタール</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1471,6 +2347,12 @@
 		<string>ルーマニア</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1481,6 +2363,12 @@
 		<string>ロシア連邦</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1491,6 +2379,12 @@
 		<string>ルワンダ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1501,6 +2395,12 @@
 		<string>セントクリストファー・ネイビス</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1511,6 +2411,12 @@
 		<string>セントルシア</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1521,6 +2427,12 @@
 		<string>セントビンセントおよびグレナディーン諸島</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1531,6 +2443,12 @@
 		<string>サモア</string>
 		<key>area</key>
 		<string>oceania</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1541,6 +2459,12 @@
 		<string>サンマリノ</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1551,6 +2475,12 @@
 		<string>サントメ・プリンシペ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1561,6 +2491,12 @@
 		<string>サウジアラビア</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1571,6 +2507,12 @@
 		<string>セーシェル</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1581,6 +2523,12 @@
 		<string>シエラレオネ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1591,6 +2539,12 @@
 		<string>シンガポール</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1601,6 +2555,12 @@
 		<string>スロバキア</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1611,6 +2571,12 @@
 		<string>スロベニア</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1621,6 +2587,12 @@
 		<string>ソロモン諸島</string>
 		<key>area</key>
 		<string>oceania</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1631,6 +2603,12 @@
 		<string>ソマリア</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1641,6 +2619,12 @@
 		<string>南アフリカ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1651,6 +2635,12 @@
 		<string>南スーダン</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1661,6 +2651,12 @@
 		<string>スペイン</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1671,6 +2667,12 @@
 		<string>スリランカ</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<true/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1681,6 +2683,12 @@
 		<string>スーダン</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1691,6 +2699,12 @@
 		<string>スリナム</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1701,6 +2715,12 @@
 		<string>スワジランド</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1711,6 +2731,12 @@
 		<string>スウェーデン</string>
 		<key>area</key>
 		<string>eupope</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1721,6 +2747,12 @@
 		<string>スイス</string>
 		<key>area</key>
 		<string>europe</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1731,6 +2763,12 @@
 		<string>シリア・アラブ共和国</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1741,6 +2779,12 @@
 		<string>タジキスタン</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1751,6 +2795,12 @@
 		<string>タンザニア</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1761,6 +2811,12 @@
 		<string>タイ</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1771,6 +2827,12 @@
 		<string>東ティモール</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1781,6 +2843,12 @@
 		<string>トーゴ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1791,6 +2859,12 @@
 		<string>トンガ</string>
 		<key>area</key>
 		<string>oceania</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1801,6 +2875,12 @@
 		<string>トリニダード・トバゴ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1811,6 +2891,12 @@
 		<string>チュニジア</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1821,6 +2907,12 @@
 		<string>トルコ</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1831,6 +2923,12 @@
 		<string>トルクメニスタン</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1841,6 +2939,12 @@
 		<string>ツバル</string>
 		<key>area</key>
 		<string>oceania</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1851,6 +2955,12 @@
 		<string>ウガンダ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1861,6 +2971,12 @@
 		<string>ウクライナ</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1871,6 +2987,12 @@
 		<string>アラブ首長国連邦</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1881,6 +3003,12 @@
 		<string>アメリカ合衆国</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1891,6 +3019,12 @@
 		<string>ウルグアイ</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1901,6 +3035,12 @@
 		<string>ウズベキスタン</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1911,6 +3051,12 @@
 		<string>バヌアツ</string>
 		<key>area</key>
 		<string>oceania</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1921,6 +3067,12 @@
 		<string>ベネズエラ・ボリバル共和国</string>
 		<key>area</key>
 		<string>america</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1931,6 +3083,12 @@
 		<string>ベトナム</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1941,6 +3099,12 @@
 		<string>イエメン</string>
 		<key>area</key>
 		<string>asia</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1951,6 +3115,12 @@
 		<string>ザンビア</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 	<dict>
 		<key>code</key>
@@ -1961,6 +3131,12 @@
 		<string>ジンバブエ</string>
 		<key>area</key>
 		<string>africa</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<true/>
+		<key>sort_star_flag</key>
+		<false/>
 	</dict>
 </array>
 </plist>

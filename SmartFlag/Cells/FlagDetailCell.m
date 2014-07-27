@@ -42,33 +42,33 @@
 
 -(void) startAnimation
 {
-    BaseAnimationView * baseAnim = [[BaseAnimationView alloc] initWithImage:bgImage.imageView.image owner:self];
-    [self addSubview:baseAnim];
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    [UIView beginAnimations:nil context:context];
+    [UIView setAnimationDuration:0.2f];
+    [UIView setAnimationDelegate:self];
+    [UIView setAnimationDidStopSelector:@selector(endAnimation)];
+    
+    bgImage.frame = CGRectMake(-(320 * 0.25), -(212 * 0.25), 320 * 1.5,  212 * 1.5);
+    
+    [UIView commitAnimations];
+}
+
+-(void)endAnimation
+{
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    [UIView beginAnimations:nil context:context];
+    [UIView setAnimationDuration:0.2f];
+    [UIView setAnimationDelegate:self];
+
+    bgImage.frame = CGRectMake(0, 0, 320, 212);
+    
+    [UIView commitAnimations];
 }
 
 //-(void) startAnimation
 //{
-//    CGContextRef context = UIGraphicsGetCurrentContext();
-//    [UIView beginAnimations:nil context:context];
-//    [UIView setAnimationDuration:0.2f];
-//    [UIView setAnimationDelegate:self];
-//    [UIView setAnimationDidStopSelector:@selector(endAnimation)];
-//    
-//    bgImage.frame = CGRectMake(-(320 * 0.25), -(212 * 0.25), 320 * 1.5,  212 * 1.5);
-//    
-//    [UIView commitAnimations];
-//}
-//
-//-(void)endAnimation
-//{
-//    CGContextRef context = UIGraphicsGetCurrentContext();
-//    [UIView beginAnimations:nil context:context];
-//    [UIView setAnimationDuration:0.2f];
-//    [UIView setAnimationDelegate:self];
-//
-//    bgImage.frame = CGRectMake(0, 0, 320, 212);
-//    
-//    [UIView commitAnimations];
+//    BaseAnimationView * baseAnim = [[BaseAnimationView alloc] initWithImage:bgImage.currentBackgroundImage owner:self];
+//    [self addSubview:baseAnim];
 //}
 
 @end

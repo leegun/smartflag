@@ -26,6 +26,16 @@
 	<string>ヨーロッパ</string>
 	<key>area_oceania</key>
 	<string>オセアニア</string>
+	<key>sort_title</key>
+	<string>国旗の並べ替え(裏メニュー)</string>
+	<key>sort_line_vertical</key>
+	<string>縦ライン国旗</string>
+	<key>sort_line_horizontal</key>
+	<string>横ライン国旗</string>
+	<key>sort_star</key>
+	<string>★マーク国旗</string>
+	<key>sort_cancel</key>
+	<string>キャンセル</string>
 	<key>review</key>
 	<string>レビュー</string>
 	<key>wikipedia</key>

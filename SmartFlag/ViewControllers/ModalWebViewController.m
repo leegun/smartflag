@@ -32,8 +32,9 @@
     [super viewDidLoad];
 
     //WebView
+    int vcWidth = [[UIScreen mainScreen] bounds].size.width;
     int vcHeight = [[UIScreen mainScreen] bounds].size.height;
-    webview = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, 320, vcHeight)];
+    webview = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, vcWidth, vcHeight)];
     webview.delegate = self;
     [self.view addSubview:webview];
     
@@ -48,7 +49,7 @@
     
     //閉じるボタン
     closeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    closeBtn.frame = CGRectMake(10, vcHeight - 80, 50, 50);
+    closeBtn.frame = CGRectMake(10, vcHeight - 120, 50, 50);
     [closeBtn setBackgroundImage:[UIImage imageNamed:@"close.png"] forState:UIControlStateNormal];
     [closeBtn addTarget:self action:@selector(onClose:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:closeBtn];
@@ -91,4 +92,14 @@
     [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFY_HIDE_LOADING_VIEW object:nil];
 }
 
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)orientation {
+    if (orientation == UIInterfaceOrientationPortrait) {
+        NSLog(@"UIInterfaceOrientationPortrait");
+        return YES;
+    } else if (orientation == UIInterfaceOrientationLandscapeLeft) {
+        NSLog(@"UIInterfaceOrientationLandscapeLeft");
+        return YES;
+    }
+    return NO;
+}
 @end

@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OptionButtonView : UIView
+@interface OptionButtonView : UIView <UIActionSheetDelegate>
 {
     CGRect vcFrame;
+    BOOL longTapFlag;
+    
     UIButton * menuBtn;
     UIButton * closeBtn;
 }

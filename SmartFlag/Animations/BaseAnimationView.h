@@ -16,4 +16,6 @@
 
 - (id)initWithImage:(UIImage *)image owner:(UIView *)owner;
 
+- (void)startAnimation;
+
 @end

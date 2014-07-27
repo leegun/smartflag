@@ -26,6 +26,16 @@
 	<string>Europe</string>
 	<key>area_oceania</key>
 	<string>Oceania</string>
+	<key>sort_title</key>
+	<string>Sort Flag (Special Menu)</string>
+	<key>sort_line_vertical</key>
+	<string>vertical line flag</string>
+	<key>sort_line_horizontal</key>
+	<string>horizontal line flag</string>
+	<key>sort_star</key>
+	<string>star flag</string>
+	<key>sort_cancel</key>
+	<string>cancel</string>
 	<key>review</key>
 	<string>Review</string>
 	<key>wikipedia</key>
