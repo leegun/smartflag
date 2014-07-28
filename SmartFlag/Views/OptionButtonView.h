@@ -15,6 +15,7 @@
     
     UIButton * menuBtn;
     UIButton * closeBtn;
+    UIButton * quizBtn;
 }
 
 - (id)initWithOwner:(id)owner;

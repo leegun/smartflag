@@ -19,7 +19,7 @@
     //画面サイズ
     vcFrame = [[UIScreen mainScreen] bounds];
 
-    self = [super initWithFrame:CGRectMake(10, vcFrame.size.height - 120, 50, 50)];
+    self = [super initWithFrame:CGRectMake(10, vcFrame.size.height - 120, 310, 50)];
     if (self) {
         
         //長押しフラグ初期化
@@ -40,6 +40,13 @@
         [closeBtn setBackgroundImage:[UIImage imageNamed:@"close.png"] forState:UIControlStateNormal];
         [closeBtn addTarget:owner action:@selector(onClose:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:closeBtn];
+        
+        //クイズボタン
+//        quizBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+//        quizBtn.frame = CGRectMake(260, 0, 50, 50);
+//        [quizBtn setBackgroundImage:[UIImage imageNamed:@"quiz.png"] forState:UIControlStateNormal];
+//        [quizBtn addTarget:owner action:@selector(onQuiz:) forControlEvents:UIControlEventTouchUpInside];
+//        [self addSubview:quizBtn];
         
         [self showMenuBtn];
 
@@ -114,6 +121,10 @@
 }
 
 - (void)onClose:(UIButton*)button
+{
+}
+
+- (void)onQuiz:(UIButton*)button
 {
 }
 

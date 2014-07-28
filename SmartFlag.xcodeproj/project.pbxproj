@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8210C5919869E6900F1B46A /* quiz.png in Resources */ = {isa = PBXBuildFile; fileRef = F8210C5819869E6900F1B46A /* quiz.png */; };
+		F8210C5D1986A91E00F1B46A /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = F8210C5C1986A91E00F1B46A /* UIImage+ImageEffects.m */; };
 		F828C74D1981C4FA004212CF /* APLTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C5AA1981C4F9004212CF /* APLTransitionController.m */; };
 		F828C74E1981C4FA004212CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C5AC1981C4F9004212CF /* AppDelegate.m */; };
 		F828C74F1981C4FA004212CF /* FlagDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C5AF1981C4F9004212CF /* FlagDetailCell.m */; };
@@ -468,6 +470,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8210C5819869E6900F1B46A /* quiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz.png; sourceTree = "<group>"; };
+		F8210C5B1986A91E00F1B46A /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		F8210C5C1986A91E00F1B46A /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		F828C5A91981C4F9004212CF /* APLTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLTransitionController.h; sourceTree = "<group>"; };
 		F828C5AA1981C4F9004212CF /* APLTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLTransitionController.m; sourceTree = "<group>"; };
 		F828C5AB1981C4F9004212CF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SmartFlag/AppDelegate.h; sourceTree = "<group>"; };
@@ -964,6 +969,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8210C5A1986A91E00F1B46A /* Extarnals */ = {
+			isa = PBXGroup;
+			children = (
+				F8210C5B1986A91E00F1B46A /* UIImage+ImageEffects.h */,
+				F8210C5C1986A91E00F1B46A /* UIImage+ImageEffects.m */,
+			);
+			name = Extarnals;
+			path = SmartFlag/Extarnals;
+			sourceTree = "<group>";
+		};
 		F826B5211970F0CF00A9D390 = {
 			isa = PBXGroup;
 			children = (
@@ -978,6 +993,7 @@
 				F828C5A81981C4F9004212CF /* Animations */,
 				F828C73A1981C4FA004212CF /* Utils */,
 				F828CA631982BB32004212CF /* Library */,
+				F8210C5A1986A91E00F1B46A /* Extarnals */,
 				F828C5B51981C4F9004212CF /* en.lproj */,
 				F828C5B81981C4F9004212CF /* Images.xcassets */,
 				F828C5B91981C4F9004212CF /* main.m */,
@@ -1060,6 +1076,7 @@
 			isa = PBXGroup;
 			children = (
 				F828C5C01981C4F9004212CF /* close.png */,
+				F8210C5819869E6900F1B46A /* quiz.png */,
 				F828C5C11981C4F9004212CF /* setting.png */,
 			);
 			path = App;
@@ -1997,6 +2014,7 @@
 				F828C7F91981C4FA004212CF /* se50.png in Resources */,
 				F828C9D51982A654004212CF /* ie.png in Resources */,
 				F828C9F21982A654004212CF /* lv.png in Resources */,
+				F8210C5919869E6900F1B46A /* quiz.png in Resources */,
 				F828CA041982A654004212CF /* my.png in Resources */,
 				F828C7AD1981C4FA004212CF /* uy50.png in Resources */,
 				F828C9ED1982A654004212CF /* lk.png in Resources */,
@@ -2189,6 +2207,7 @@
 				F828C8C81981C4FA004212CF /* LeftMenuViewController.m in Sources */,
 				F828C8C91981C4FA004212CF /* ModalWebViewController.m in Sources */,
 				F828C74F1981C4FA004212CF /* FlagDetailCell.m in Sources */,
+				F8210C5D1986A91E00F1B46A /* UIImage+ImageEffects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
