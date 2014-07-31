@@ -11,7 +11,7 @@
 
 @implementation FlagDetailCell
 
-@synthesize bgImage,name,link;
+@synthesize bgImage,nameTitle,name,codeTitle,code,areaTitle,area,linkTitle,link;
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -24,17 +24,63 @@
         [bgImage addTarget:self action:@selector(startAnimation) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:bgImage];
         
+        //国名タイトル
+        nameTitle = [UILabel new];
+        nameTitle.frame = CGRectMake(10, 230, 300, 30);
+        nameTitle.font = [UIFont boldSystemFontOfSize:18];
+        nameTitle.textColor = [UIColor whiteColor];
+        nameTitle.text = [Utils getLanguage:@"country_name"];
+        [self addSubview:nameTitle];
+        
         //国名
         name = [UILabel new];
-        name.frame = CGRectMake(10, 230, 300, 30);
+        name.frame = CGRectMake(20, 260, 300, 30);
         name.font = [UIFont systemFontOfSize:18];
         name.textColor = [UIColor whiteColor];
         [self addSubview:name];
+        
+        //国コードタイトル
+        codeTitle = [UILabel new];
+        codeTitle.frame = CGRectMake(10, 290, 300, 30);
+        codeTitle.font = [UIFont boldSystemFontOfSize:18];
+        codeTitle.textColor = [UIColor whiteColor];
+        codeTitle.text = [Utils getLanguage:@"country_code"];
+        [self addSubview:codeTitle];
+        
+        //国コード
+        code = [UILabel new];
+        code.frame = CGRectMake(20, 320, 300, 30);
+        code.font = [UIFont systemFontOfSize:18];
+        code.textColor = [UIColor whiteColor];
+        [self addSubview:code];
+        
+        //エリアタイトル
+        areaTitle = [UILabel new];
+        areaTitle.frame = CGRectMake(160, 290, 300, 30);
+        areaTitle.font = [UIFont boldSystemFontOfSize:18];
+        areaTitle.textColor = [UIColor whiteColor];
+        areaTitle.text = [Utils getLanguage:@"country_area"];
+        [self addSubview:areaTitle];
+        
+        //エリア
+        area = [UILabel new];
+        area.frame = CGRectMake(170, 320, 300, 30);
+        area.font = [UIFont systemFontOfSize:18];
+        area.textColor = [UIColor whiteColor];
+        [self addSubview:area];
+        
+        //リンクタイトル
+        linkTitle = [UILabel new];
+        linkTitle.frame = CGRectMake(10, 350, 300, 30);
+        linkTitle.font = [UIFont boldSystemFontOfSize:18];
+        linkTitle.textColor = [UIColor whiteColor];
+        linkTitle.text = [Utils getLanguage:@"country_detail"];
+        [self addSubview:linkTitle];
 
         //Wikiリンク
         link = [UIButton buttonWithType:110];
-        [link setTitle:[Utils setLanguage:@"wikipedia"] forState:UIControlStateNormal];
-        link.frame = CGRectMake(10, 270, 120, 30);
+        [link setTitle:[Utils getLanguage:@"wikipedia"] forState:UIControlStateNormal];
+        link.frame = CGRectMake(20, 380, 120, 30);
         [self addSubview:link];
     }
     return self;

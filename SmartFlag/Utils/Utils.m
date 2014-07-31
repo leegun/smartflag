@@ -93,14 +93,14 @@
     
 }
 
-+(NSString *)setLanguage:(NSString *)key
++(NSString *)getLanguage:(NSString *)key
 {
     NSString * language = [NSString stringWithFormat:@"localize_%@",[self getUserDefalut:USER_DEFAULT_LANGUAGE]];
     NSString * languagePath = [[NSBundle mainBundle] pathForResource:language ofType:@"plist"];
     NSDictionary * languageDic = [NSDictionary dictionaryWithContentsOfFile:languagePath];
     
-//    NSLog(@"language = %@",language);
-//    NSLog(@"return = %@",[languageDic objectForKey:key]);
+    NSLog(@"language = %@",language);
+    NSLog(@"return = %@",[languageDic objectForKey:key]);
     
     return [languageDic objectForKey:key];
 }

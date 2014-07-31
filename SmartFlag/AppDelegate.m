@@ -11,6 +11,7 @@
 #import "OptionButtonView.h"
 #import "ModalWebViewController.h"
 #import "LoadingView.h"
+#import "ScaleFlagsView.h"
 
 #define TAG_DISABLE_TOUCH_VIEW  1
 
@@ -196,7 +197,7 @@
                                                   usingBlock:^(NSNotification *notification) {
                                                       NSString * urlStr = [notification object];
                                                       ModalWebViewController * web = [[ModalWebViewController alloc] initWithUrl:urlStr];
-                                                      [weakSelf.navigationController presentViewController:web animated:YES completion:nil];
+                                                      [weakSelf.navigationController presentViewController:web animated:NO completion:nil];
                                                   }];
 
 }

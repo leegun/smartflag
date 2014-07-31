@@ -13,6 +13,10 @@
 #define IMAGE_NAME @"%@.png"
 #define IMAGE_THUMBNAIL @"%@50.png"
 
+//flag image size
+#define FLAG_WIDTH_T 80
+#define FLAG_HEIGHT_T 53
+
 //locale const
 #define ENGLISH @"en"
 #define JAPANESE @"ja"
@@ -27,6 +31,9 @@
 
 #define SORT_LINE_VERTICAL @"sort_vertical_flag"
 #define SORT_LINE_HORIZONTAL @"sort_horizontal_flag"
+#define SORT_LINE_CROSS @"sort_cross_flag"
+#define SORT_SUN @"sort_sun_flag"
+#define SORT_MOON @"sort_moon_flag"
 #define SORT_STAR @"sort_star_flag"
 
 //notification
@@ -43,6 +50,8 @@
 #define NOTIFY_SHOW_WEB_VIEW @"NOTIFY_SHOW_WEB_VIEW"
 #define NOTIFY_SHOW_LOADING_VIEW @"NOTIFY_SHOW_LOADING_VIEW"
 #define NOTIFY_HIDE_LOADING_VIEW @"NOTIFY_HIDE_LOADING_VIEW"
+#define NOTIFY_SHOW_SCALE_FLAG_VIEW @"NOTIFY_SHOW_SCALE_FLAG_VIEW"
+#define NOTIFY_HIDE_SCALE_FLAG_VIEW @"NOTIFY_HIDE_SCALE_FLAG_VIEW"
 
 //user default
 #define USER_DEFAULT_LANGUAGE @"USER_DEFAULT_LANGUAGE"

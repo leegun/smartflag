@@ -32,12 +32,26 @@
 	<string>縦ライン国旗</string>
 	<key>sort_line_horizontal</key>
 	<string>横ライン国旗</string>
+	<key>sort_line_cross</key>
+	<string>クロスライン国旗</string>
+	<key>sort_sun</key>
+	<string>太陽マーク国旗</string>
+	<key>sort_moon</key>
+	<string>月マーク国旗</string>
 	<key>sort_star</key>
 	<string>★マーク国旗</string>
 	<key>sort_cancel</key>
 	<string>キャンセル</string>
 	<key>review</key>
 	<string>レビュー</string>
+	<key>country_name</key>
+	<string>【国名】</string>
+	<key>country_code</key>
+	<string>【国コード】</string>
+	<key>country_area</key>
+	<string>【地域】</string>
+	<key>country_detail</key>
+	<string>【国詳細】</string>
 	<key>wikipedia</key>
 	<string>Wikipedia</string>
 </dict>

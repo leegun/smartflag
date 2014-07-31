@@ -9,6 +9,7 @@
 #import "FlagListViewController.h"
 #import "FlagIconCell.h"
 #import "FlagDetailCell.h"
+#import "ScaleFlagsView.h"
 
 @interface FlagListViewController ()
 
@@ -42,6 +43,11 @@
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
+    //スケールフラグビュー
+    UIWindow * window = [[UIApplication sharedApplication].delegate window];
+    [window addSubview:[[ScaleFlagsView alloc] initWithFlagIndex:indexPath.row]];
+//    [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFY_SHOW_SCALE_FLAG_VIEW object:@(indexPath.row) userInfo:nil];
+
     UIViewController *vc = [self nextViewControllerAtPoint:CGPointZero];
     [self.navigationController pushViewController:vc animated:YES];
 }

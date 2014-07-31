@@ -219,11 +219,11 @@
                                                       if (!weakSelf.animFlag) {
                                                           weakSelf.animFlag = YES;
                                                           weakSelf.alpha = 1;
-                                                          [self startRandAnimation01];
-                                                          [self startRandAnimation02];
-                                                          [self startRandAnimation03];
-                                                          [self startRandAnimation04];
-                                                          [self startRandAnimation05];
+                                                          [weakSelf startRandAnimation01];
+                                                          [weakSelf startRandAnimation02];
+                                                          [weakSelf startRandAnimation03];
+                                                          [weakSelf startRandAnimation04];
+                                                          [weakSelf startRandAnimation05];
                                                       }
                                                       
                                                   }];

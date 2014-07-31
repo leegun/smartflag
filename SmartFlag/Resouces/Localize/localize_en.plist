@@ -32,12 +32,26 @@
 	<string>vertical line flag</string>
 	<key>sort_line_horizontal</key>
 	<string>horizontal line flag</string>
+	<key>sort_line_cross</key>
+	<string>cross line flag</string>
+	<key>sort_sun</key>
+	<string>sun mark flag</string>
+	<key>sort_moon</key>
+	<string>moon mark flag</string>
 	<key>sort_star</key>
-	<string>star flag</string>
+	<string>star mark flag</string>
 	<key>sort_cancel</key>
 	<string>cancel</string>
 	<key>review</key>
 	<string>Review</string>
+	<key>country_name</key>
+	<string>Country Name</string>
+	<key>country_code</key>
+	<string>Country Code</string>
+	<key>country_area</key>
+	<string>Country Area</string>
+	<key>country_detail</key>
+	<string>Country Detail</string>
 	<key>wikipedia</key>
 	<string>Wikipedia</string>
 </dict>

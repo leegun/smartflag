@@ -10,7 +10,10 @@
 
 #define TAG_SORT_LINE_VERTICAL      0
 #define TAG_SORT_LINE_HORIZONTAL    1
-#define TAG_SORT_STAR               2
+#define TAG_SORT_LINE_CROSS         2
+#define TAG_SORT_SUN                3
+#define TAG_SORT_MOON               4
+#define TAG_SORT_STAR               5
 
 @implementation OptionButtonView
 
@@ -60,13 +63,16 @@
     NSLog(@"long tap");
     if (!longTapFlag) {
         longTapFlag = YES;
-        UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:[Utils setLanguage:@"sort_title"]
+        UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:[Utils getLanguage:@"sort_title"]
                                                            delegate:self
-                                                  cancelButtonTitle:[Utils setLanguage:@"sort_cancel"]
+                                                  cancelButtonTitle:[Utils getLanguage:@"sort_cancel"]
                                              destructiveButtonTitle:nil
-                                                  otherButtonTitles:[Utils setLanguage:@"sort_line_vertical"],
-                                                                    [Utils setLanguage:@"sort_line_horizontal"],
-                                                                    [Utils setLanguage:@"sort_star"],nil];
+                                                  otherButtonTitles:[Utils getLanguage:@"sort_line_vertical"],
+                                                                    [Utils getLanguage:@"sort_line_horizontal"],
+                                                                    [Utils getLanguage:@"sort_line_cross"],
+                                                                    [Utils getLanguage:@"sort_sun"],
+                                                                    [Utils getLanguage:@"sort_moon"],
+                                                                    [Utils getLanguage:@"sort_star"],nil];
         [sheet showInView:self.window];
     }
 }
@@ -87,6 +93,21 @@
         case TAG_SORT_LINE_HORIZONTAL:
         {
             [Utils setUserDefalut:USER_DEFAULT_SORT value:SORT_LINE_HORIZONTAL];
+        }
+            break;
+        case TAG_SORT_LINE_CROSS:
+        {
+            [Utils setUserDefalut:USER_DEFAULT_SORT value:SORT_LINE_CROSS];
+        }
+            break;
+        case TAG_SORT_SUN:
+        {
+            [Utils setUserDefalut:USER_DEFAULT_SORT value:SORT_SUN];
+        }
+            break;
+        case TAG_SORT_MOON:
+        {
+            [Utils setUserDefalut:USER_DEFAULT_SORT value:SORT_MOON];
         }
             break;
         case TAG_SORT_STAR:

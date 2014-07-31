@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F81E219C198A955A00218CA8 /* ScaleFlagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F81E219B198A955A00218CA8 /* ScaleFlagsView.m */; };
 		F8210C5919869E6900F1B46A /* quiz.png in Resources */ = {isa = PBXBuildFile; fileRef = F8210C5819869E6900F1B46A /* quiz.png */; };
 		F8210C5D1986A91E00F1B46A /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = F8210C5C1986A91E00F1B46A /* UIImage+ImageEffects.m */; };
 		F828C74D1981C4FA004212CF /* APLTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C5AA1981C4F9004212CF /* APLTransitionController.m */; };
@@ -470,6 +471,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F81E219A198A955A00218CA8 /* ScaleFlagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleFlagsView.h; sourceTree = "<group>"; };
+		F81E219B198A955A00218CA8 /* ScaleFlagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleFlagsView.m; sourceTree = "<group>"; };
 		F8210C5819869E6900F1B46A /* quiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz.png; sourceTree = "<group>"; };
 		F8210C5B1986A91E00F1B46A /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		F8210C5C1986A91E00F1B46A /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
@@ -1411,6 +1414,8 @@
 				F828C74A1981C4FA004212CF /* LoadingView.m */,
 				F828C74B1981C4FA004212CF /* OptionButtonView.h */,
 				F828C74C1981C4FA004212CF /* OptionButtonView.m */,
+				F81E219A198A955A00218CA8 /* ScaleFlagsView.h */,
+				F81E219B198A955A00218CA8 /* ScaleFlagsView.m */,
 			);
 			name = Views;
 			path = SmartFlag/Views;
@@ -2202,6 +2207,7 @@
 				F828C74D1981C4FA004212CF /* APLTransitionController.m in Sources */,
 				F828C7541981C4FA004212CF /* main.m in Sources */,
 				F828C8CA1981C4FA004212CF /* LoadingView.m in Sources */,
+				F81E219C198A955A00218CA8 /* ScaleFlagsView.m in Sources */,
 				F828C8CB1981C4FA004212CF /* OptionButtonView.m in Sources */,
 				F828C8C61981C4FA004212CF /* FlagListViewController.m in Sources */,
 				F828C8C81981C4FA004212CF /* LeftMenuViewController.m in Sources */,
