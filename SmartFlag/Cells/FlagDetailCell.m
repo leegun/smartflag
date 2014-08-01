@@ -80,7 +80,7 @@
         //Wikiリンク
         link = [UIButton buttonWithType:110];
         [link setTitle:[Utils getLanguage:@"wikipedia"] forState:UIControlStateNormal];
-        link.frame = CGRectMake(20, 380, 120, 30);
+        link.frame = CGRectMake(20, 390, 120, 30);
         [self addSubview:link];
     }
     return self;

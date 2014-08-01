@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PageManager.h"
 
 @interface LeftMenuViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
 {

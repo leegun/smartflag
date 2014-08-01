@@ -11,10 +11,12 @@
 @interface PageManager : NSObject
 {
     BOOL detailFlag;
+    BOOL spMenuFlag;
 }
 
 +(PageManager *) defaultManager;
 
 @property (nonatomic,readwrite) BOOL detailFlag;
+@property (nonatomic,readwrite) BOOL spMenuFlag;
 
 @end

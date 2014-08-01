@@ -60,7 +60,6 @@
     if (animFlag) {
         
         int randHeight = arc4random() % (vcHeight - 60);
-        NSLog(@"randHeight01 = %d",randHeight);
         imageView01.frame = CGRectMake(-80, randHeight, 80, 53);
         CGContextRef context = UIGraphicsGetCurrentContext();
         [UIView beginAnimations:nil context:context];
@@ -89,7 +88,6 @@
         imageView02.image = [UIImage imageNamed:imageName];
         
         int randHeight = arc4random() % (vcHeight - 60);
-        NSLog(@"randHeight02 = %d",randHeight);
         imageView02.frame = CGRectMake(-80, randHeight, 80, 53);
         CGContextRef context = UIGraphicsGetCurrentContext();
         [UIView beginAnimations:nil context:context];
@@ -118,7 +116,6 @@
         imageView03.image = [UIImage imageNamed:imageName];
         
         int randHeight = arc4random() % (vcHeight - 60);
-        NSLog(@"randHeight03 = %d",randHeight);
         imageView03.frame = CGRectMake(-80, randHeight, 80, 53);
         CGContextRef context = UIGraphicsGetCurrentContext();
         [UIView beginAnimations:nil context:context];
@@ -147,7 +144,6 @@
         imageView04.image = [UIImage imageNamed:imageName];
         
         int randHeight = arc4random() % (vcHeight - 60);
-        NSLog(@"randHeight04 = %d",randHeight);
         imageView04.frame = CGRectMake(-80, randHeight, 80, 53);
         CGContextRef context = UIGraphicsGetCurrentContext();
         [UIView beginAnimations:nil context:context];
@@ -176,7 +172,6 @@
         imageView05.image = [UIImage imageNamed:imageName];
         
         int randHeight = arc4random() % (vcHeight - 60);
-        NSLog(@"randHeight05 = %d",randHeight);
         imageView05.frame = CGRectMake(-80, randHeight, 80, 53);
         CGContextRef context = UIGraphicsGetCurrentContext();
         [UIView beginAnimations:nil context:context];

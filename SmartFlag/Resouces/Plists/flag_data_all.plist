@@ -2542,9 +2542,9 @@
 		<key>sort_sun_flag</key>
 		<false/>
 		<key>sort_moon_flag</key>
-		<false/>
+		<true/>
 		<key>sort_star_flag</key>
-		<false/>
+		<true/>
 	</dict>
 	<dict>
 		<key>code</key>

@@ -12,7 +12,7 @@ PageManager *_PageManager;
 
 @implementation PageManager
 
-@synthesize detailFlag;
+@synthesize detailFlag,spMenuFlag;
 
 +(PageManager *)defaultManager {
     
@@ -24,6 +24,18 @@ PageManager *_PageManager;
 	}
 	
 	return nil;
+}
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        
+        //初期化
+        detailFlag = NO;
+        spMenuFlag = NO;
+    }
+    return self;
 }
 
 @end

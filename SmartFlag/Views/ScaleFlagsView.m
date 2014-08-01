@@ -88,7 +88,11 @@
 {
     
     //フラグデータ取得
-    flagDataArray = [Utils getAreaData];
+    if ([PageManager defaultManager].spMenuFlag) {
+        flagDataArray = [Utils getSortData];
+    } else {
+        flagDataArray = [Utils getAreaData];
+    }
     
     NSDictionary * flagData = [flagDataArray objectAtIndex:flagIndex];
     NSString * imageName = [NSString stringWithFormat:IMAGE_THUMBNAIL,[flagData objectForKey:@"code"]];

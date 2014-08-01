@@ -141,6 +141,8 @@
             break;
         case TAG_SECTION_AREA:
         {
+            [PageManager defaultManager].spMenuFlag = NO;
+
             switch (indexPath.row) {
                 case TAG_ROW_AREA_00:
                 {

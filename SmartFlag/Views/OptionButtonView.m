@@ -22,7 +22,7 @@
     //画面サイズ
     vcFrame = [[UIScreen mainScreen] bounds];
 
-    self = [super initWithFrame:CGRectMake(10, vcFrame.size.height - 120, 310, 50)];
+    self = [super initWithFrame:CGRectMake(10, vcFrame.size.height - 110, 310, 50)];
     if (self) {
         
         //長押しフラグ初期化
@@ -39,7 +39,7 @@
         
         //閉じるボタン
         closeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        closeBtn.frame = CGRectMake(0, 0, 50, 50);
+        closeBtn.frame = CGRectMake(240, 0, 50, 50);
         [closeBtn setBackgroundImage:[UIImage imageNamed:@"close.png"] forState:UIControlStateNormal];
         [closeBtn addTarget:owner action:@selector(onClose:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:closeBtn];
@@ -83,6 +83,8 @@
     if(buttonIndex==actionSheet.cancelButtonIndex){
         return;
     }
+    
+    [PageManager defaultManager].spMenuFlag = YES;
     
     switch (buttonIndex) {
         case TAG_SORT_LINE_VERTICAL:
