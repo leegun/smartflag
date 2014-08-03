@@ -45,7 +45,7 @@
 {
     //スケールフラグビュー
     UIWindow * window = [[UIApplication sharedApplication].delegate window];
-    [window addSubview:[[ScaleFlagsView alloc] initWithFlagIndex:indexPath.row]];
+    [window addSubview:[[ScaleFlagsView alloc] initWithFlagIndex:(int)indexPath.row]];
 //    [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFY_SHOW_SCALE_FLAG_VIEW object:@(indexPath.row) userInfo:nil];
 
     UIViewController *vc = [self nextViewControllerAtPoint:CGPointZero];

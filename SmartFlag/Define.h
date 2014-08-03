@@ -59,8 +59,8 @@
 #define USER_DEFAULT_SORT @"USER_DEFAULT_SORT"
 
 //url const
-#define SUPPORT_URL @"https://google.com"
-#define APPSTORE_URL @"https://itunes.apple.com/us/app/he-genoto/id595184836?l=ja&ls=1&mt=8"
+#define SUPPORT_URL @"https://www.facebook.com/smartflagapp"
+#define APPSTORE_URL @"https://itunes.apple.com/us/app/smart-flag/id904656161?l=ja&ls=1&mt=8"
 #define WIKI_URL @"http://%@.wikipedia.org/wiki/%@"
 
 

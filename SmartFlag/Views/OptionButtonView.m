@@ -60,7 +60,7 @@
 
 - (void)longTapMenuBtn:(UILongPressGestureRecognizer *)sender
 {
-    NSLog(@"long tap");
+//    NSLog(@"long tap");
     if (!longTapFlag) {
         longTapFlag = YES;
         UIActionSheet *sheet = [[UIActionSheet alloc] initWithTitle:[Utils getLanguage:@"sort_title"]

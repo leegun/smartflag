@@ -49,7 +49,7 @@
     
     //閉じるボタン
     closeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    closeBtn.frame = CGRectMake(10, vcHeight - 120, 50, 50);
+    closeBtn.frame = CGRectMake(250, vcHeight - 110, 50, 50);
     [closeBtn setBackgroundImage:[UIImage imageNamed:@"close.png"] forState:UIControlStateNormal];
     [closeBtn addTarget:self action:@selector(onClose:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:closeBtn];
@@ -94,10 +94,10 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)orientation {
     if (orientation == UIInterfaceOrientationPortrait) {
-        NSLog(@"UIInterfaceOrientationPortrait");
+//        NSLog(@"UIInterfaceOrientationPortrait");
         return YES;
     } else if (orientation == UIInterfaceOrientationLandscapeLeft) {
-        NSLog(@"UIInterfaceOrientationLandscapeLeft");
+//        NSLog(@"UIInterfaceOrientationLandscapeLeft");
         return YES;
     }
     return NO;

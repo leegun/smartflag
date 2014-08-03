@@ -1738,7 +1738,7 @@
 				ORGANIZATIONNAME = "Lee Geunil";
 				TargetAttributes = {
 					F826B5291970F0CF00A9D390 = {
-						DevelopmentTeam = JQZ998787K;
+						DevelopmentTeam = 754PAN7XK5;
 					};
 					F826B54A1970F0D000A9D390 = {
 						TestTargetID = F826B5291970F0CF00A9D390;
@@ -2286,8 +2286,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Geunil Lee (9J594BATXP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Geunil Lee (9J594BATXP)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -2305,7 +2305,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "32E01073-2AAB-4C6E-9013-9C7071D87D31";
+				PROVISIONING_PROFILE = "27713BB0-4D2F-460A-A8EB-4D8F1A4C83C9";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -2326,8 +2326,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Geunil Lee (754PAN7XK5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Geunil Lee (754PAN7XK5)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -2338,7 +2338,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				PROVISIONING_PROFILE = "32E01073-2AAB-4C6E-9013-9C7071D87D31";
+				PROVISIONING_PROFILE = "ACF76609-1EF9-4E97-86EE-C85BB3F818F5";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2358,7 +2358,7 @@
 					"$(PROJECT_DIR)/SmartFlag/Library/NendAd",
 				);
 				PRODUCT_NAME = SmartFlag;
-				PROVISIONING_PROFILE = "32E01073-2AAB-4C6E-9013-9C7071D87D31";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2368,7 +2368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Geunil Lee (754PAN7XK5)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmartFlag/SmartFlag-Prefix.pch";
 				INFOPLIST_FILE = "SmartFlag/SmartFlag-Info.plist";
@@ -2377,7 +2377,7 @@
 					"$(PROJECT_DIR)/SmartFlag/Library/NendAd",
 				);
 				PRODUCT_NAME = SmartFlag;
-				PROVISIONING_PROFILE = "32E01073-2AAB-4C6E-9013-9C7071D87D31";
+				PROVISIONING_PROFILE = "D7231CD2-E2FA-4254-B13A-F2348B71D316";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
