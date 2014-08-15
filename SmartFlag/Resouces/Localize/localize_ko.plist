@@ -3,57 +3,57 @@
 <plist version="1.0">
 <dict>
 	<key>section_language</key>
-	<string>Select Language</string>
+	<string>언어선택</string>
 	<key>section_area</key>
-	<string>Select Area</string>
+	<string>지역선택</string>
 	<key>section_support</key>
-	<string>Support</string>
+	<string>지원</string>
 	<key>section_other</key>
-	<string>Other</string>
+	<string>기타</string>
 	<key>language_english</key>
-	<string>English</string>
+	<string>영어</string>
 	<key>language_japanese</key>
-	<string>Japanese</string>
+	<string>일본어</string>
 	<key>language_korean</key>
-	<string>Korean</string>
+	<string>한국어</string>
 	<key>area_world</key>
-	<string>All</string>
+	<string>전세계</string>
 	<key>area_africa</key>
-	<string>Africa</string>
+	<string>아프리카</string>
 	<key>area_america</key>
-	<string>America</string>
+	<string>미국</string>
 	<key>area_asia</key>
-	<string>Asia</string>
+	<string>아시아</string>
 	<key>area_europe</key>
-	<string>Europe</string>
+	<string>유럽</string>
 	<key>area_oceania</key>
-	<string>Oceania</string>
+	<string>오세아니아</string>
 	<key>sort_title</key>
-	<string>Sort Flag (Special Menu)</string>
+	<string>국기의 정렬 (숨겨진 메뉴)</string>
 	<key>sort_line_vertical</key>
-	<string>vertical line flag</string>
+	<string>세로 라인 국기</string>
 	<key>sort_line_horizontal</key>
-	<string>horizontal line flag</string>
+	<string>옆 라인 국기</string>
 	<key>sort_line_cross</key>
-	<string>cross line flag</string>
+	<string>크로스 라인 국기</string>
 	<key>sort_sun</key>
-	<string>sun mark flag</string>
+	<string>태양 마크 국기</string>
 	<key>sort_moon</key>
-	<string>moon mark flag</string>
+	<string>달 마크 국기</string>
 	<key>sort_star</key>
-	<string>star mark flag</string>
+	<string>★ 마크 국기</string>
 	<key>sort_cancel</key>
-	<string>cancel</string>
+	<string>취소</string>
 	<key>review</key>
-	<string>Review</string>
+	<string>평가</string>
 	<key>country_name</key>
-	<string>【Name】</string>
+	<string>【국명】</string>
 	<key>country_code</key>
-	<string>【Code】</string>
+	<string>【국 코드】</string>
 	<key>country_area</key>
-	<string>【Area】</string>
+	<string>【지역】</string>
 	<key>country_detail</key>
-	<string>【Detail】</string>
+	<string>【상세】</string>
 	<key>wikipedia</key>
 	<string>Wikipedia</string>
 </dict>

@@ -458,6 +458,7 @@
 		F828CA6C1982BB32004212CF /* NADView_readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = F828CA6A1982BB32004212CF /* NADView_readme.txt */; };
 		F82E775B199E654E00026667 /* FlagFitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F82E775A199E654E00026667 /* FlagFitViewController.m */; };
 		F82E775E199E662100026667 /* FlagFitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F82E775D199E662100026667 /* FlagFitCell.m */; };
+		F82E7760199E76E400026667 /* localize_ko.plist in Resources */ = {isa = PBXBuildFile; fileRef = F82E775F199E76E400026667 /* localize_ko.plist */; };
 		F8B6DD0F198372FA00430C1B /* sc01.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B6DD0A198372FA00430C1B /* sc01.png */; };
 		F8B6DD10198372FA00430C1B /* sc02.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B6DD0B198372FA00430C1B /* sc02.png */; };
 		F8B6DD11198372FA00430C1B /* sc03.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B6DD0C198372FA00430C1B /* sc03.png */; };
@@ -956,6 +957,7 @@
 		F82E775A199E654E00026667 /* FlagFitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagFitViewController.m; sourceTree = "<group>"; };
 		F82E775C199E662100026667 /* FlagFitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagFitCell.h; sourceTree = "<group>"; };
 		F82E775D199E662100026667 /* FlagFitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagFitCell.m; sourceTree = "<group>"; };
+		F82E775F199E76E400026667 /* localize_ko.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = localize_ko.plist; sourceTree = "<group>"; };
 		F8B6DD0A198372FA00430C1B /* sc01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc01.png; sourceTree = "<group>"; };
 		F8B6DD0B198372FA00430C1B /* sc02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc02.png; sourceTree = "<group>"; };
 		F8B6DD0C198372FA00430C1B /* sc03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc03.png; sourceTree = "<group>"; };
@@ -1696,6 +1698,7 @@
 			children = (
 				F8B6DD1A1983ABA800430C1B /* localize_en.plist */,
 				F8B6DD1B1983ABA800430C1B /* localize_ja.plist */,
+				F82E775F199E76E400026667 /* localize_ko.plist */,
 			);
 			path = Localize;
 			sourceTree = "<group>";
@@ -2187,6 +2190,7 @@
 				F828C9CB1982A654004212CF /* gq.png in Resources */,
 				F828CA221982A654004212CF /* sg.png in Resources */,
 				F828CA061982A654004212CF /* na.png in Resources */,
+				F82E7760199E76E400026667 /* localize_ko.plist in Resources */,
 				F81E219E198BED0500218CA8 /* as.png in Resources */,
 				F828C98D1982A654004212CF /* ag.png in Resources */,
 				F828C7931981C4FA004212CF /* bz50.png in Resources */,

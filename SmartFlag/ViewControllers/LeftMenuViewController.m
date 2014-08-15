@@ -19,7 +19,8 @@
 
 #define TAG_ROW_LOCAL_01    0
 #define TAG_ROW_LOCAL_02    1
-#define ROW_LOCAL_LENGHT    2
+#define TAG_ROW_LOCAL_03    2
+#define ROW_LOCAL_LENGHT    3
 
 #define TAG_ROW_AREA_00     0
 #define TAG_ROW_AREA_01     1
@@ -127,6 +128,16 @@
                 {
                     cell.name.text = [Utils getLanguage:@"language_japanese"];
                     if ([Utils checkMark:USER_DEFAULT_LANGUAGE value:JAPANESE]) {
+                        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+                    } else {
+                        cell.accessoryType = UITableViewCellAccessoryNone;
+                    }
+                }
+                    break;
+                case TAG_ROW_LOCAL_03:
+                {
+                    cell.name.text = [Utils getLanguage:@"language_korean"];
+                    if ([Utils checkMark:USER_DEFAULT_LANGUAGE value:KOREAN]) {
                         cell.accessoryType = UITableViewCellAccessoryCheckmark;
                     } else {
                         cell.accessoryType = UITableViewCellAccessoryNone;
@@ -279,6 +290,12 @@
                 case TAG_ROW_LOCAL_02:
                 {
                     [Utils setUserDefalut:USER_DEFAULT_LANGUAGE value:JAPANESE];
+                    [leftTableView reloadData];
+                }
+                    break;
+                case TAG_ROW_LOCAL_03:
+                {
+                    [Utils setUserDefalut:USER_DEFAULT_LANGUAGE value:KOREAN];
                     [leftTableView reloadData];
                 }
                     break;

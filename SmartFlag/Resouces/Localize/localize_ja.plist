@@ -14,6 +14,8 @@
 	<string>英語</string>
 	<key>language_japanese</key>
 	<string>日本語</string>
+	<key>language_korean</key>
+	<string>韓国語</string>
 	<key>area_world</key>
 	<string>全世界</string>
 	<key>area_africa</key>

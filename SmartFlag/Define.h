@@ -20,6 +20,7 @@
 //locale const
 #define ENGLISH @"en"
 #define JAPANESE @"ja"
+#define KOREAN @"ko"
 
 //area const
 #define AREA_WORLD @"all"

@@ -9,10 +9,14 @@
 		<string>Afghanistan</string>
 		<key>ja</key>
 		<string>アフガニスタン</string>
+		<key>ko</key>
+		<string>아프가니스탄</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -33,10 +37,14 @@
 		<string>Åland Islands</string>
 		<key>ja</key>
 		<string>オーランド諸島</string>
+		<key>ko</key>
+		<string>올란드 제도</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -57,10 +65,14 @@
 		<string>Albania</string>
 		<key>ja</key>
 		<string>アルバニア</string>
+		<key>ko</key>
+		<string>알바니아</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -81,10 +93,14 @@
 		<string>Algeria</string>
 		<key>ja</key>
 		<string>アルジェリア</string>
+		<key>ko</key>
+		<string>알제리</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -105,10 +121,14 @@
 		<string>American Samoa</string>
 		<key>ja</key>
 		<string>アメリカ領サモア</string>
+		<key>ko</key>
+		<string>아메리칸 사모아</string>
 		<key>area</key>
 		<string>oceania</string>
 		<key>area_ja</key>
 		<string>オセアニア</string>
+		<key>area_ko</key>
+		<string>오세아니아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -129,10 +149,14 @@
 		<string>Andorra</string>
 		<key>ja</key>
 		<string>アンドラ</string>
+		<key>ko</key>
+		<string>안도라</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -153,10 +177,14 @@
 		<string>Angola</string>
 		<key>ja</key>
 		<string>アンゴラ</string>
+		<key>ko</key>
+		<string>앙골라</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -177,10 +205,14 @@
 		<string>Anguilla</string>
 		<key>ja</key>
 		<string>アンギラ</string>
+		<key>ko</key>
+		<string>앵 귈라</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -201,10 +233,14 @@
 		<string>Antigua and Barbuda</string>
 		<key>ja</key>
 		<string>アンティグア・バーブーダ</string>
+		<key>ko</key>
+		<string>앤티가 바부 다</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -225,10 +261,14 @@
 		<string>Argentina</string>
 		<key>ja</key>
 		<string>アルゼンチン</string>
+		<key>ko</key>
+		<string>아르헨티나</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -249,10 +289,14 @@
 		<string>Armenia</string>
 		<key>ja</key>
 		<string>アルメニア</string>
+		<key>ko</key>
+		<string>아르메니아</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -273,10 +317,14 @@
 		<string>Aruba</string>
 		<key>ja</key>
 		<string>アルバ</string>
+		<key>ko</key>
+		<string>알바</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -297,10 +345,14 @@
 		<string>Australia</string>
 		<key>ja</key>
 		<string>オーストラリア</string>
+		<key>ko</key>
+		<string>오스트레일리아</string>
 		<key>area</key>
 		<string>oceania</string>
 		<key>area_ja</key>
 		<string>オセアニア</string>
+		<key>area_ko</key>
+		<string>오세아니아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -321,10 +373,14 @@
 		<string>Austria</string>
 		<key>ja</key>
 		<string>オーストリア</string>
+		<key>ko</key>
+		<string>오스트리아</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -345,10 +401,14 @@
 		<string>Azerbaijan</string>
 		<key>ja</key>
 		<string>アゼルバイジャン</string>
+		<key>ko</key>
+		<string>아제르바이잔</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -369,10 +429,14 @@
 		<string>Bahamas</string>
 		<key>ja</key>
 		<string>バハマ</string>
+		<key>ko</key>
+		<string>바하마</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -393,10 +457,14 @@
 		<string>Bahrain</string>
 		<key>ja</key>
 		<string>バーレーン</string>
+		<key>ko</key>
+		<string>바레인</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -417,10 +485,14 @@
 		<string>Bangladesh</string>
 		<key>ja</key>
 		<string>バングラデシュ</string>
+		<key>ko</key>
+		<string>방글라데시</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -441,10 +513,14 @@
 		<string>Barbados</string>
 		<key>ja</key>
 		<string>バルバドス</string>
+		<key>ko</key>
+		<string>바베이도스</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -465,10 +541,14 @@
 		<string>Belarus</string>
 		<key>ja</key>
 		<string>ベラルーシ</string>
+		<key>ko</key>
+		<string>벨라루스</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -489,10 +569,14 @@
 		<string>Belgium</string>
 		<key>ja</key>
 		<string>ベルギー</string>
+		<key>ko</key>
+		<string>벨기에</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -513,10 +597,14 @@
 		<string>Belize</string>
 		<key>ja</key>
 		<string>ベリーズ</string>
+		<key>ko</key>
+		<string>벨리즈</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -537,10 +625,14 @@
 		<string>Benin</string>
 		<key>ja</key>
 		<string>ベナン</string>
+		<key>ko</key>
+		<string>베냉</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -561,10 +653,14 @@
 		<string>Bermuda</string>
 		<key>ja</key>
 		<string>バミューダ</string>
+		<key>ko</key>
+		<string>버뮤다</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -585,10 +681,14 @@
 		<string>Bhutan</string>
 		<key>ja</key>
 		<string>ブータン</string>
+		<key>ko</key>
+		<string>부탄</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -609,10 +709,14 @@
 		<string>Bolivia, Plurinational State of</string>
 		<key>ja</key>
 		<string>ボリビア多民族国</string>
+		<key>ko</key>
+		<string>볼리비아 다민족 국</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -633,10 +737,14 @@
 		<string>Bosnia and Herzegovina</string>
 		<key>ja</key>
 		<string>ボスニア・ヘルツェゴビナ</string>
+		<key>ko</key>
+		<string>보스니아 헤르체고비나</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -657,10 +765,14 @@
 		<string>Botswana</string>
 		<key>ja</key>
 		<string>ボツワナ</string>
+		<key>ko</key>
+		<string>보츠와나</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -681,10 +793,14 @@
 		<string>Brazil</string>
 		<key>ja</key>
 		<string>ブラジル</string>
+		<key>ko</key>
+		<string>브라질</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -705,10 +821,14 @@
 		<string>British Indian Ocean Territory</string>
 		<key>ja</key>
 		<string>イギリス領インド洋地域</string>
+		<key>ko</key>
+		<string>영국령 인도양 지역</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -729,10 +849,14 @@
 		<string>Brunei Darussalam</string>
 		<key>ja</key>
 		<string>ブルネイ・ダルサラーム</string>
+		<key>ko</key>
+		<string>브루나이</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -753,10 +877,14 @@
 		<string>Bulgaria</string>
 		<key>ja</key>
 		<string>ブルガリア</string>
+		<key>ko</key>
+		<string>불가리아</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -777,10 +905,14 @@
 		<string>Burkina Faso</string>
 		<key>ja</key>
 		<string>ブルキナファソ</string>
+		<key>ko</key>
+		<string>부르 키나 파소</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -801,10 +933,14 @@
 		<string>Burundi</string>
 		<key>ja</key>
 		<string>ブルンジ</string>
+		<key>ko</key>
+		<string>부룬디</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -825,10 +961,14 @@
 		<string>Cambodia</string>
 		<key>ja</key>
 		<string>カンボジア</string>
+		<key>ko</key>
+		<string>캄보디아</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -849,10 +989,14 @@
 		<string>Cameroon</string>
 		<key>ja</key>
 		<string>カメルーン</string>
+		<key>ko</key>
+		<string>카메룬</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -873,10 +1017,14 @@
 		<string>Canada</string>
 		<key>ja</key>
 		<string>カナダ</string>
+		<key>ko</key>
+		<string>캐나다</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -897,10 +1045,14 @@
 		<string>Cabo Verde</string>
 		<key>ja</key>
 		<string>カーボベルデ</string>
+		<key>ko</key>
+		<string>카보 베르데</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -921,10 +1073,14 @@
 		<string>Central African Republic</string>
 		<key>ja</key>
 		<string>中央アフリカ共和国</string>
+		<key>ko</key>
+		<string>중앙 아프리카 공화국</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -945,10 +1101,14 @@
 		<string>Chad</string>
 		<key>ja</key>
 		<string>チャド</string>
+		<key>ko</key>
+		<string>차드</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -969,10 +1129,14 @@
 		<string>Chile</string>
 		<key>ja</key>
 		<string>チリ</string>
+		<key>ko</key>
+		<string>칠레</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -993,10 +1157,14 @@
 		<string>China</string>
 		<key>ja</key>
 		<string>中華人民共和国</string>
+		<key>ko</key>
+		<string>중화 인민 공화국</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1017,10 +1185,14 @@
 		<string>Colombia</string>
 		<key>ja</key>
 		<string>コロンビア</string>
+		<key>ko</key>
+		<string>콜롬비아</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1041,10 +1213,14 @@
 		<string>Comoros</string>
 		<key>ja</key>
 		<string>コモロ</string>
+		<key>ko</key>
+		<string>코모로</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1065,10 +1241,14 @@
 		<string>Congo</string>
 		<key>ja</key>
 		<string>コンゴ共和国</string>
+		<key>ko</key>
+		<string>콩고 공화국</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1089,10 +1269,14 @@
 		<string>Congo, the Democratic Republic of the</string>
 		<key>ja</key>
 		<string>コンゴ民主共和国</string>
+		<key>ko</key>
+		<string>콩고 민주 공화국</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1113,10 +1297,14 @@
 		<string>Costa Rica</string>
 		<key>ja</key>
 		<string>コスタリカ</string>
+		<key>ko</key>
+		<string>코스타리카</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1137,10 +1325,14 @@
 		<string>Côte d&apos;Ivoire</string>
 		<key>ja</key>
 		<string>コートジボワール</string>
+		<key>ko</key>
+		<string>코트 디부 아르</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -1161,10 +1353,14 @@
 		<string>Croatia</string>
 		<key>ja</key>
 		<string>クロアチア</string>
+		<key>ko</key>
+		<string>크로아티아</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1185,10 +1381,14 @@
 		<string>Cuba</string>
 		<key>ja</key>
 		<string>キューバ</string>
+		<key>ko</key>
+		<string>쿠바</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1209,10 +1409,14 @@
 		<string>Cyprus</string>
 		<key>ja</key>
 		<string>キプロス</string>
+		<key>ko</key>
+		<string>키프로스</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1233,10 +1437,14 @@
 		<string>Czech Republic</string>
 		<key>ja</key>
 		<string>チェコ</string>
+		<key>ko</key>
+		<string>체코</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1257,10 +1465,14 @@
 		<string>Denmark</string>
 		<key>ja</key>
 		<string>デンマーク</string>
+		<key>ko</key>
+		<string>덴마크</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1281,10 +1493,14 @@
 		<string>Djibouti</string>
 		<key>ja</key>
 		<string>ジブチ</string>
+		<key>ko</key>
+		<string>지부티</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1305,10 +1521,14 @@
 		<string>Dominica</string>
 		<key>ja</key>
 		<string>ドミニカ国</string>
+		<key>ko</key>
+		<string>도미니카</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1329,10 +1549,14 @@
 		<string>Dominican Republic</string>
 		<key>ja</key>
 		<string>ドミニカ共和国</string>
+		<key>ko</key>
+		<string>도미니카 공화국</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1353,10 +1577,14 @@
 		<string>Ecuador</string>
 		<key>ja</key>
 		<string>エクアドル</string>
+		<key>ko</key>
+		<string>에콰도르</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1377,10 +1605,14 @@
 		<string>Egypt</string>
 		<key>ja</key>
 		<string>エジプト</string>
+		<key>ko</key>
+		<string>이집트</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1401,10 +1633,14 @@
 		<string>El Salvador</string>
 		<key>ja</key>
 		<string>エルサルバドル</string>
+		<key>ko</key>
+		<string>엘살바도르</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1425,10 +1661,14 @@
 		<string>Equatorial Guinea</string>
 		<key>ja</key>
 		<string>赤道ギニア</string>
+		<key>ko</key>
+		<string>적도 기니</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1449,10 +1689,14 @@
 		<string>Eritrea</string>
 		<key>ja</key>
 		<string>エリトリア</string>
+		<key>ko</key>
+		<string>에리트레아</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1473,10 +1717,14 @@
 		<string>Estonia</string>
 		<key>ja</key>
 		<string>エストニア</string>
+		<key>ko</key>
+		<string>에스토니아</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1497,10 +1745,14 @@
 		<string>Ethiopia</string>
 		<key>ja</key>
 		<string>エチオピア</string>
+		<key>ko</key>
+		<string>에티오피아</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1521,10 +1773,14 @@
 		<string>Falkland Islands (Malvinas)</string>
 		<key>ja</key>
 		<string>フォークランド（マルビナス）諸島</string>
+		<key>ko</key>
+		<string>포클랜드 제도 (말 비나 스)</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1545,10 +1801,14 @@
 		<string>Faroe Islands</string>
 		<key>ja</key>
 		<string>フェロー諸島</string>
+		<key>ko</key>
+		<string>페로 제도</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1569,10 +1829,14 @@
 		<string>France</string>
 		<key>ja</key>
 		<string>フランス</string>
+		<key>ko</key>
+		<string>프랑스</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -1593,10 +1857,14 @@
 		<string>French Guiana</string>
 		<key>ja</key>
 		<string>フランス領ギアナ</string>
+		<key>ko</key>
+		<string>프랑스어 령 기아나</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1617,10 +1885,14 @@
 		<string>Gambia</string>
 		<key>ja</key>
 		<string>ガンビア</string>
+		<key>ko</key>
+		<string>감비아</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1641,10 +1913,14 @@
 		<string>Georgia</string>
 		<key>ja</key>
 		<string>グルジア</string>
+		<key>ko</key>
+		<string>그루지야</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1665,10 +1941,14 @@
 		<string>Germany</string>
 		<key>ja</key>
 		<string>ドイツ</string>
+		<key>ko</key>
+		<string>독일</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1689,10 +1969,14 @@
 		<string>Ghana</string>
 		<key>ja</key>
 		<string>ガーナ</string>
+		<key>ko</key>
+		<string>가나</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1713,10 +1997,14 @@
 		<string>Greece</string>
 		<key>ja</key>
 		<string>ギリシャ</string>
+		<key>ko</key>
+		<string>그리스</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1737,10 +2025,14 @@
 		<string>Grenada</string>
 		<key>ja</key>
 		<string>グレナダ</string>
+		<key>ko</key>
+		<string>그레나다</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1761,10 +2053,14 @@
 		<string>Guatemala</string>
 		<key>ja</key>
 		<string>グアテマラ</string>
+		<key>ko</key>
+		<string>과테말라</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -1785,10 +2081,14 @@
 		<string>Guinea</string>
 		<key>ja</key>
 		<string>ギニア</string>
+		<key>ko</key>
+		<string>기니</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -1809,10 +2109,14 @@
 		<string>Guinea-Bissau</string>
 		<key>ja</key>
 		<string>ギニアビサウ</string>
+		<key>ko</key>
+		<string>기니 비사우</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1833,10 +2137,14 @@
 		<string>Guyana</string>
 		<key>ja</key>
 		<string>ガイアナ</string>
+		<key>ko</key>
+		<string>가이아나</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1857,10 +2165,14 @@
 		<string>Haiti</string>
 		<key>ja</key>
 		<string>ハイチ</string>
+		<key>ko</key>
+		<string>아이티</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1881,10 +2193,14 @@
 		<string>Holy See (Vatican City State)</string>
 		<key>ja</key>
 		<string>バチカン市国</string>
+		<key>ko</key>
+		<string>교황청 (바티칸 시국)</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -1905,10 +2221,14 @@
 		<string>Honduras</string>
 		<key>ja</key>
 		<string>ホンジュラス</string>
+		<key>ko</key>
+		<string>온두라스</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1929,10 +2249,14 @@
 		<string>Hong Kong</string>
 		<key>ja</key>
 		<string>香港</string>
+		<key>ko</key>
+		<string>홍콩</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1953,10 +2277,14 @@
 		<string>Hungary</string>
 		<key>ja</key>
 		<string>ハンガリー</string>
+		<key>ko</key>
+		<string>헝가리</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -1977,10 +2305,14 @@
 		<string>Iceland</string>
 		<key>ja</key>
 		<string>アイスランド</string>
+		<key>ko</key>
+		<string>아이슬란드</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2001,10 +2333,14 @@
 		<string>India</string>
 		<key>ja</key>
 		<string>インド</string>
+		<key>ko</key>
+		<string>인도</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2025,10 +2361,14 @@
 		<string>Indonesia</string>
 		<key>ja</key>
 		<string>インドネシア</string>
+		<key>ko</key>
+		<string>인도네시아</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2049,10 +2389,14 @@
 		<string>Iran, Islamic Republic of</string>
 		<key>ja</key>
 		<string>イラン・イスラム共和国</string>
+		<key>ko</key>
+		<string>이란, 이슬람 공화국</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2073,10 +2417,14 @@
 		<string>Iraq</string>
 		<key>ja</key>
 		<string>イラク</string>
+		<key>ko</key>
+		<string>이라크</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2097,10 +2445,14 @@
 		<string>Ireland</string>
 		<key>ja</key>
 		<string>アイルランド</string>
+		<key>ko</key>
+		<string>아일랜드</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -2121,10 +2473,14 @@
 		<string>Israel</string>
 		<key>ja</key>
 		<string>イスラエル</string>
+		<key>ko</key>
+		<string>이스라엘</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2145,10 +2501,14 @@
 		<string>Italy</string>
 		<key>ja</key>
 		<string>イタリア</string>
+		<key>ko</key>
+		<string>이탈리아</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -2169,10 +2529,14 @@
 		<string>Jamaica</string>
 		<key>ja</key>
 		<string>ジャマイカ</string>
+		<key>ko</key>
+		<string>자메이카</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2193,10 +2557,14 @@
 		<string>Japan</string>
 		<key>ja</key>
 		<string>日本</string>
+		<key>ko</key>
+		<string>일본</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2217,10 +2585,14 @@
 		<string>Jordan</string>
 		<key>ja</key>
 		<string>ヨルダン</string>
+		<key>ko</key>
+		<string>요르단</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2241,10 +2613,14 @@
 		<string>Kazakhstan</string>
 		<key>ja</key>
 		<string>カザフスタン</string>
+		<key>ko</key>
+		<string>카자흐스탄</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2265,10 +2641,14 @@
 		<string>Kenya</string>
 		<key>ja</key>
 		<string>ケニア</string>
+		<key>ko</key>
+		<string>케냐</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2289,10 +2669,14 @@
 		<string>Kiribati</string>
 		<key>ja</key>
 		<string>キリバス</string>
+		<key>ko</key>
+		<string>키리바시</string>
 		<key>area</key>
 		<string>oceania</string>
 		<key>area_ja</key>
 		<string>オセアニア</string>
+		<key>area_ko</key>
+		<string>오세아니아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2313,10 +2697,14 @@
 		<string>Korea, Democratic People&apos;s Republic of</string>
 		<key>ja</key>
 		<string>朝鮮民主主義人民共和国</string>
+		<key>ko</key>
+		<string>조선 민주주의 인민 공화국</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2337,10 +2725,14 @@
 		<string>Korea, Republic of</string>
 		<key>ja</key>
 		<string>韓国</string>
+		<key>ko</key>
+		<string>한국</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2361,10 +2753,14 @@
 		<string>Kuwait</string>
 		<key>ja</key>
 		<string>クウェート</string>
+		<key>ko</key>
+		<string>쿠웨이트</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2385,10 +2781,14 @@
 		<string>Kyrgyzstan</string>
 		<key>ja</key>
 		<string>キルギス</string>
+		<key>ko</key>
+		<string>키르기스스탄</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2409,10 +2809,14 @@
 		<string>Lao People&apos;s Democratic Republic</string>
 		<key>ja</key>
 		<string>ラオス人民民主共和国</string>
+		<key>ko</key>
+		<string>라오 인민 민주 공화국</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2433,10 +2837,14 @@
 		<string>Latvia</string>
 		<key>ja</key>
 		<string>ラトビア</string>
+		<key>ko</key>
+		<string>라트비아</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2457,10 +2865,14 @@
 		<string>Lebanon</string>
 		<key>ja</key>
 		<string>レバノン</string>
+		<key>ko</key>
+		<string>레바논</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2481,10 +2893,14 @@
 		<string>Lesotho</string>
 		<key>ja</key>
 		<string>レソト</string>
+		<key>ko</key>
+		<string>레소토</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2505,10 +2921,14 @@
 		<string>Liberia</string>
 		<key>ja</key>
 		<string>リベリア</string>
+		<key>ko</key>
+		<string>라이베리아</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2529,10 +2949,14 @@
 		<string>Libya</string>
 		<key>ja</key>
 		<string>リビア</string>
+		<key>ko</key>
+		<string>리비아</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2553,10 +2977,14 @@
 		<string>Liechtenstein</string>
 		<key>ja</key>
 		<string>リヒテンシュタイン</string>
+		<key>ko</key>
+		<string>리히텐슈타인</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2577,10 +3005,14 @@
 		<string>Lithuania</string>
 		<key>ja</key>
 		<string>リトアニア</string>
+		<key>ko</key>
+		<string>리투아니아</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2601,10 +3033,14 @@
 		<string>Luxembourg</string>
 		<key>ja</key>
 		<string>ルクセンブルク</string>
+		<key>ko</key>
+		<string>룩셈부르크</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2625,10 +3061,14 @@
 		<string>Macedonia, the former Yugoslav Republic of</string>
 		<key>ja</key>
 		<string>マケドニア旧ユーゴスラビア共和国</string>
+		<key>ko</key>
+		<string>마케도니아, 전 유고 슬라비아 공화국의</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2649,10 +3089,14 @@
 		<string>Madagascar</string>
 		<key>ja</key>
 		<string>マダガスカル</string>
+		<key>ko</key>
+		<string>마다가스카르</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2673,10 +3117,14 @@
 		<string>Malawi</string>
 		<key>ja</key>
 		<string>マラウイ</string>
+		<key>ko</key>
+		<string>말라위</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2697,10 +3145,14 @@
 		<string>Malaysia</string>
 		<key>ja</key>
 		<string>マレーシア</string>
+		<key>ko</key>
+		<string>말레이시아</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2721,10 +3173,14 @@
 		<string>Maldives</string>
 		<key>ja</key>
 		<string>モルディブ</string>
+		<key>ko</key>
+		<string>몰디브</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2745,10 +3201,14 @@
 		<string>Malta</string>
 		<key>ja</key>
 		<string>マルタ</string>
+		<key>ko</key>
+		<string>몰타</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -2769,10 +3229,14 @@
 		<string>Marshall Islands</string>
 		<key>ja</key>
 		<string>マーシャル諸島</string>
+		<key>ko</key>
+		<string>마샬 군도</string>
 		<key>area</key>
 		<string>oceania</string>
 		<key>area_ja</key>
 		<string>オセアニア</string>
+		<key>area_ko</key>
+		<string>오세아니아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2793,10 +3257,14 @@
 		<string>Mauritania</string>
 		<key>ja</key>
 		<string>モーリタニア</string>
+		<key>ko</key>
+		<string>모리타니</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2817,10 +3285,14 @@
 		<string>Mauritius</string>
 		<key>ja</key>
 		<string>モーリシャス</string>
+		<key>ko</key>
+		<string>모리셔스</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2841,10 +3313,14 @@
 		<string>Mexico</string>
 		<key>ja</key>
 		<string>メキシコ</string>
+		<key>ko</key>
+		<string>멕시코</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -2865,10 +3341,14 @@
 		<string>Micronesia, Federated States of</string>
 		<key>ja</key>
 		<string>ミクロネシア連邦</string>
+		<key>ko</key>
+		<string>미크로네시아</string>
 		<key>area</key>
 		<string>oceania</string>
 		<key>area_ja</key>
 		<string>オセアニア</string>
+		<key>area_ko</key>
+		<string>오세아니아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2889,10 +3369,14 @@
 		<string>Moldova, Republic of</string>
 		<key>ja</key>
 		<string>モルドバ共和国</string>
+		<key>ko</key>
+		<string>몰도바 공화국</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -2913,10 +3397,14 @@
 		<string>Monaco</string>
 		<key>ja</key>
 		<string>モナコ</string>
+		<key>ko</key>
+		<string>모나코</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2937,10 +3425,14 @@
 		<string>Mongolia</string>
 		<key>ja</key>
 		<string>モンゴル</string>
+		<key>ko</key>
+		<string>몽골</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -2961,10 +3453,14 @@
 		<string>Morocco</string>
 		<key>ja</key>
 		<string>モロッコ</string>
+		<key>ko</key>
+		<string>모로코</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -2985,10 +3481,14 @@
 		<string>Mozambique</string>
 		<key>ja</key>
 		<string>モザンビーク</string>
+		<key>ko</key>
+		<string>모잠비크</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3009,10 +3509,14 @@
 		<string>Myanmar</string>
 		<key>ja</key>
 		<string>ミャンマー</string>
+		<key>ko</key>
+		<string>미얀마</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3033,10 +3537,14 @@
 		<string>Namibia</string>
 		<key>ja</key>
 		<string>ナミビア</string>
+		<key>ko</key>
+		<string>나미비아</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3057,10 +3565,14 @@
 		<string>Nauru</string>
 		<key>ja</key>
 		<string>ナウル</string>
+		<key>ko</key>
+		<string>나우루어</string>
 		<key>area</key>
 		<string>oceania</string>
 		<key>area_ja</key>
 		<string>オセアニア</string>
+		<key>area_ko</key>
+		<string>오세아니아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3081,10 +3593,14 @@
 		<string>Nepal</string>
 		<key>ja</key>
 		<string>ネパール</string>
+		<key>ko</key>
+		<string>네팔</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3105,10 +3621,14 @@
 		<string>Netherlands</string>
 		<key>ja</key>
 		<string>オランダ</string>
+		<key>ko</key>
+		<string>네덜란드</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3129,10 +3649,14 @@
 		<string>New Zealand</string>
 		<key>ja</key>
 		<string>ニュージーランド</string>
+		<key>ko</key>
+		<string>뉴질랜드</string>
 		<key>area</key>
 		<string>oceania</string>
 		<key>area_ja</key>
 		<string>オセアニア</string>
+		<key>area_ko</key>
+		<string>오세아니아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3153,10 +3677,14 @@
 		<string>Nicaragua</string>
 		<key>ja</key>
 		<string>ニカラグア</string>
+		<key>ko</key>
+		<string>니카라과</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3177,10 +3705,14 @@
 		<string>Niger</string>
 		<key>ja</key>
 		<string>ニジェール</string>
+		<key>ko</key>
+		<string>니제르</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3201,10 +3733,14 @@
 		<string>Nigeria</string>
 		<key>ja</key>
 		<string>ナイジェリア</string>
+		<key>ko</key>
+		<string>나이지리아</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -3225,10 +3761,14 @@
 		<string>Norway</string>
 		<key>ja</key>
 		<string>ノルウェー</string>
+		<key>ko</key>
+		<string>노르웨이</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3249,10 +3789,14 @@
 		<string>Oman</string>
 		<key>ja</key>
 		<string>オマーン</string>
+		<key>ko</key>
+		<string>오만</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3273,10 +3817,14 @@
 		<string>Pakistan</string>
 		<key>ja</key>
 		<string>パキスタン</string>
+		<key>ko</key>
+		<string>파키스탄</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -3297,10 +3845,14 @@
 		<string>Palau</string>
 		<key>ja</key>
 		<string>パラオ</string>
+		<key>ko</key>
+		<string>팔라우</string>
 		<key>area</key>
 		<string>oceania</string>
 		<key>area_ja</key>
 		<string>オセアニア</string>
+		<key>area_ko</key>
+		<string>오세아니아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3321,10 +3873,14 @@
 		<string>Panama</string>
 		<key>ja</key>
 		<string>パナマ</string>
+		<key>ko</key>
+		<string>파나마</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3345,10 +3901,14 @@
 		<string>Papua New Guinea</string>
 		<key>ja</key>
 		<string>パプアニューギニア</string>
+		<key>ko</key>
+		<string>파푸아 뉴기니</string>
 		<key>area</key>
 		<string>oceania</string>
 		<key>area_ja</key>
 		<string>オセアニア</string>
+		<key>area_ko</key>
+		<string>오세아니아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3369,10 +3929,14 @@
 		<string>Paraguay</string>
 		<key>ja</key>
 		<string>パラグアイ</string>
+		<key>ko</key>
+		<string>파라과이</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3393,10 +3957,14 @@
 		<string>Peru</string>
 		<key>ja</key>
 		<string>ペルー</string>
+		<key>ko</key>
+		<string>페루</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -3417,10 +3985,14 @@
 		<string>Philippines</string>
 		<key>ja</key>
 		<string>フィリピン</string>
+		<key>ko</key>
+		<string>필리핀</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3441,10 +4013,14 @@
 		<string>Poland</string>
 		<key>ja</key>
 		<string>ポーランド</string>
+		<key>ko</key>
+		<string>폴란드</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3465,10 +4041,14 @@
 		<string>Portugal</string>
 		<key>ja</key>
 		<string>ポルトガル</string>
+		<key>ko</key>
+		<string>포르투갈</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -3489,10 +4069,14 @@
 		<string>Qatar</string>
 		<key>ja</key>
 		<string>カタール</string>
+		<key>ko</key>
+		<string>카타르</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3513,10 +4097,14 @@
 		<string>Romania</string>
 		<key>ja</key>
 		<string>ルーマニア</string>
+		<key>ko</key>
+		<string>루마니아</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -3537,10 +4125,14 @@
 		<string>Russian Federation</string>
 		<key>ja</key>
 		<string>ロシア連邦</string>
+		<key>ko</key>
+		<string>러시아</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3561,10 +4153,14 @@
 		<string>Rwanda</string>
 		<key>ja</key>
 		<string>ルワンダ</string>
+		<key>ko</key>
+		<string>르완다</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3585,10 +4181,14 @@
 		<string>Saint Kitts and Nevis</string>
 		<key>ja</key>
 		<string>セントクリストファー・ネイビス</string>
+		<key>ko</key>
+		<string>세인트 키츠 네비스</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3609,10 +4209,14 @@
 		<string>Saint Lucia</string>
 		<key>ja</key>
 		<string>セントルシア</string>
+		<key>ko</key>
+		<string>세인트 루시아</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3633,10 +4237,14 @@
 		<string>Saint Vincent and the Grenadines</string>
 		<key>ja</key>
 		<string>セントビンセントおよびグレナディーン諸島</string>
+		<key>ko</key>
+		<string>세인트 빈센트 그레나딘</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -3657,10 +4265,14 @@
 		<string>Samoa</string>
 		<key>ja</key>
 		<string>サモア</string>
+		<key>ko</key>
+		<string>사모아</string>
 		<key>area</key>
 		<string>oceania</string>
 		<key>area_ja</key>
 		<string>オセアニア</string>
+		<key>area_ko</key>
+		<string>오세아니아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3681,10 +4293,14 @@
 		<string>San Marino</string>
 		<key>ja</key>
 		<string>サンマリノ</string>
+		<key>ko</key>
+		<string>산 마리노</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3705,10 +4321,14 @@
 		<string>Sao Tome and Principe</string>
 		<key>ja</key>
 		<string>サントメ・プリンシペ</string>
+		<key>ko</key>
+		<string>상투 메 프린시 페</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3729,10 +4349,14 @@
 		<string>Saudi Arabia</string>
 		<key>ja</key>
 		<string>サウジアラビア</string>
+		<key>ko</key>
+		<string>사우디 아라비아</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3753,10 +4377,14 @@
 		<string>Seychelles</string>
 		<key>ja</key>
 		<string>セーシェル</string>
+		<key>ko</key>
+		<string>세이셸</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3777,10 +4405,14 @@
 		<string>Sierra Leone</string>
 		<key>ja</key>
 		<string>シエラレオネ</string>
+		<key>ko</key>
+		<string>시에라 리온</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3801,10 +4433,14 @@
 		<string>Singapore</string>
 		<key>ja</key>
 		<string>シンガポール</string>
+		<key>ko</key>
+		<string>싱가포르</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3825,10 +4461,14 @@
 		<string>Slovakia</string>
 		<key>ja</key>
 		<string>スロバキア</string>
+		<key>ko</key>
+		<string>슬로바키아</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3849,10 +4489,14 @@
 		<string>Slovenia</string>
 		<key>ja</key>
 		<string>スロベニア</string>
+		<key>ko</key>
+		<string>슬로베니아</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3873,10 +4517,14 @@
 		<string>Solomon Islands</string>
 		<key>ja</key>
 		<string>ソロモン諸島</string>
+		<key>ko</key>
+		<string>솔로몬 제도</string>
 		<key>area</key>
 		<string>oceania</string>
 		<key>area_ja</key>
 		<string>オセアニア</string>
+		<key>area_ko</key>
+		<string>오세아니아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3897,10 +4545,14 @@
 		<string>Somalia</string>
 		<key>ja</key>
 		<string>ソマリア</string>
+		<key>ko</key>
+		<string>소말리아</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3921,10 +4573,14 @@
 		<string>South Africa</string>
 		<key>ja</key>
 		<string>南アフリカ</string>
+		<key>ko</key>
+		<string>남아프리카 공화국</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3945,10 +4601,14 @@
 		<string>South Sudan</string>
 		<key>ja</key>
 		<string>南スーダン</string>
+		<key>ko</key>
+		<string>남 수단</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3969,10 +4629,14 @@
 		<string>Spain</string>
 		<key>ja</key>
 		<string>スペイン</string>
+		<key>ko</key>
+		<string>스페인</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -3993,10 +4657,14 @@
 		<string>Sri Lanka</string>
 		<key>ja</key>
 		<string>スリランカ</string>
+		<key>ko</key>
+		<string>스리랑카</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<true/>
 		<key>sort_horizontal_flag</key>
@@ -4017,10 +4685,14 @@
 		<string>Sudan</string>
 		<key>ja</key>
 		<string>スーダン</string>
+		<key>ko</key>
+		<string>수단</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4041,10 +4713,14 @@
 		<string>Suriname</string>
 		<key>ja</key>
 		<string>スリナム</string>
+		<key>ko</key>
+		<string>수리남</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4065,10 +4741,14 @@
 		<string>Swaziland</string>
 		<key>ja</key>
 		<string>スワジランド</string>
+		<key>ko</key>
+		<string>스와질란드</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4089,8 +4769,12 @@
 		<string>Sweden</string>
 		<key>ja</key>
 		<string>スウェーデン</string>
+		<key>ko</key>
+		<string>스웨덴</string>
 		<key>area</key>
 		<string>eupope</string>
+		<key>area_ko</key>
+		<string></string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4111,10 +4795,14 @@
 		<string>Switzerland</string>
 		<key>ja</key>
 		<string>スイス</string>
+		<key>ko</key>
+		<string>스위스</string>
 		<key>area</key>
 		<string>europe</string>
 		<key>area_ja</key>
 		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4135,10 +4823,14 @@
 		<string>Syrian Arab Republic</string>
 		<key>ja</key>
 		<string>シリア・アラブ共和国</string>
+		<key>ko</key>
+		<string>시리아 아랍 공화국</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4159,10 +4851,14 @@
 		<string>Tajikistan</string>
 		<key>ja</key>
 		<string>タジキスタン</string>
+		<key>ko</key>
+		<string>타지키스탄</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4183,10 +4879,14 @@
 		<string>Tanzania, United Republic of</string>
 		<key>ja</key>
 		<string>タンザニア</string>
+		<key>ko</key>
+		<string>탄자니아, 유나이티드 공화국</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4207,10 +4907,14 @@
 		<string>Thailand</string>
 		<key>ja</key>
 		<string>タイ</string>
+		<key>ko</key>
+		<string>태국</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4231,10 +4935,14 @@
 		<string>Timor-Leste</string>
 		<key>ja</key>
 		<string>東ティモール</string>
+		<key>ko</key>
+		<string>동 티모르</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4255,10 +4963,14 @@
 		<string>Togo</string>
 		<key>ja</key>
 		<string>トーゴ</string>
+		<key>ko</key>
+		<string>토고</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4279,10 +4991,14 @@
 		<string>Tonga</string>
 		<key>ja</key>
 		<string>トンガ</string>
+		<key>ko</key>
+		<string>통가어</string>
 		<key>area</key>
 		<string>oceania</string>
 		<key>area_ja</key>
 		<string>オセアニア</string>
+		<key>area_ko</key>
+		<string>오세아니아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4303,10 +5019,14 @@
 		<string>Trinidad and Tobago</string>
 		<key>ja</key>
 		<string>トリニダード・トバゴ</string>
+		<key>ko</key>
+		<string>트리니다드 토바고</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4327,10 +5047,14 @@
 		<string>Tunisia</string>
 		<key>ja</key>
 		<string>チュニジア</string>
+		<key>ko</key>
+		<string>튀니지</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4351,10 +5075,14 @@
 		<string>Turkey</string>
 		<key>ja</key>
 		<string>トルコ</string>
+		<key>ko</key>
+		<string>터키</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4375,10 +5103,14 @@
 		<string>Turkmenistan</string>
 		<key>ja</key>
 		<string>トルクメニスタン</string>
+		<key>ko</key>
+		<string>투르크 메니스탄</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4399,10 +5131,14 @@
 		<string>Tuvalu</string>
 		<key>ja</key>
 		<string>ツバル</string>
+		<key>ko</key>
+		<string>투발루</string>
 		<key>area</key>
 		<string>oceania</string>
 		<key>area_ja</key>
 		<string>オセアニア</string>
+		<key>area_ko</key>
+		<string>오세아니아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4423,10 +5159,14 @@
 		<string>Uganda</string>
 		<key>ja</key>
 		<string>ウガンダ</string>
+		<key>ko</key>
+		<string>우간다</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4447,10 +5187,14 @@
 		<string>Ukraine</string>
 		<key>ja</key>
 		<string>ウクライナ</string>
+		<key>ko</key>
+		<string>우크라이나</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4471,10 +5215,14 @@
 		<string>United Arab Emirates</string>
 		<key>ja</key>
 		<string>アラブ首長国連邦</string>
+		<key>ko</key>
+		<string>아랍 에미리트</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4495,10 +5243,14 @@
 		<string>United States</string>
 		<key>ja</key>
 		<string>アメリカ合衆国</string>
+		<key>ko</key>
+		<string>미국</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4519,10 +5271,14 @@
 		<string>Uruguay</string>
 		<key>ja</key>
 		<string>ウルグアイ</string>
+		<key>ko</key>
+		<string>우루과이</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4543,10 +5299,14 @@
 		<string>Uzbekistan</string>
 		<key>ja</key>
 		<string>ウズベキスタン</string>
+		<key>ko</key>
+		<string>우즈베키스탄</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4567,10 +5327,14 @@
 		<string>Vanuatu</string>
 		<key>ja</key>
 		<string>バヌアツ</string>
+		<key>ko</key>
+		<string>바누아투</string>
 		<key>area</key>
 		<string>oceania</string>
 		<key>area_ja</key>
 		<string>オセアニア</string>
+		<key>area_ko</key>
+		<string>오세아니아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4591,10 +5355,14 @@
 		<string>Venezuela, Bolivarian Republic of</string>
 		<key>ja</key>
 		<string>ベネズエラ・ボリバル共和国</string>
+		<key>ko</key>
+		<string>베네수엘라의 볼리바르 공화국</string>
 		<key>area</key>
 		<string>america</string>
 		<key>area_ja</key>
 		<string>アメリカ</string>
+		<key>area_ko</key>
+		<string>미국</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4615,10 +5383,14 @@
 		<string>Viet Nam</string>
 		<key>ja</key>
 		<string>ベトナム</string>
+		<key>ko</key>
+		<string>베트남</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4639,10 +5411,14 @@
 		<string>Yemen</string>
 		<key>ja</key>
 		<string>イエメン</string>
+		<key>ko</key>
+		<string>예멘</string>
 		<key>area</key>
 		<string>asia</string>
 		<key>area_ja</key>
 		<string>アジア</string>
+		<key>area_ko</key>
+		<string>아시아</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4663,10 +5439,14 @@
 		<string>Zambia</string>
 		<key>ja</key>
 		<string>ザンビア</string>
+		<key>ko</key>
+		<string>잠비아</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
@@ -4687,10 +5467,14 @@
 		<string>Zimbabwe</string>
 		<key>ja</key>
 		<string>ジンバブエ</string>
+		<key>ko</key>
+		<string>짐바브웨</string>
 		<key>area</key>
 		<string>africa</string>
 		<key>area_ja</key>
 		<string>アフリカ</string>
+		<key>area_ko</key>
+		<string>아프리카</string>
 		<key>sort_vertical_flag</key>
 		<false/>
 		<key>sort_horizontal_flag</key>
