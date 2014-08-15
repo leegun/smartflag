@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FlagIconCell.h"
+#import "FlagListCell.h"
+#import "FlagFitCell.h"
 #import "FlagDetailCell.h"
 #import "PageManager.h"
 
-#define CELL_FLAG_BALL      @"FlagIconCell"
+#define CELL_FLAG_LIST      @"FlagListCell"
+#define CELL_FLAG_FIT       @"FlagFitCell"
 #define CELL_FLAG_DETAIL    @"FlagDetailCell"
 
 @interface AbstractCollectionViewController : UICollectionViewController <UIScrollViewDelegate>

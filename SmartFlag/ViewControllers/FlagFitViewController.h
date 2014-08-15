@@ -1,5 +1,5 @@
 //
-//  FlagListViewController.h
+//  FlagFitViewController.h
 //  SmartFlag
 //
 //  Created by Lee Geunil on 2014/07/12.
@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "AbstractCollectionViewController.h"
-#import "FlagFitViewController.h"
 #import "FlagDetailViewController.h"
 #import "PageManager.h"
 
-@interface FlagListViewController : AbstractCollectionViewController
+@interface FlagFitViewController : AbstractCollectionViewController
 
 @end

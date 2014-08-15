@@ -123,6 +123,14 @@
     [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFY_FLAG_VIEW_SORT object:nil];
 }
 
+- (void)showAllBtn
+{
+    menuBtn.alpha = 1;
+    menuBtn.hidden = 0;
+    closeBtn.alpha = 1;
+    closeBtn.hidden = 0;
+}
+
 - (void)showMenuBtn
 {
     menuBtn.alpha = 1;
@@ -154,6 +162,14 @@
 - (void) setupNotifications
 {
     __weak OptionButtonView * weakSelf = self;
+    
+    [[NSNotificationCenter defaultCenter] addObserverForName:NOTIFY_SHOW_ALL_BUTTON
+                                                      object:nil
+                                                       queue:[NSOperationQueue mainQueue]
+                                                  usingBlock:^(NSNotification *notification) {
+                                                      
+                                                      [weakSelf showAllBtn];
+                                                  }];
     
     [[NSNotificationCenter defaultCenter] addObserverForName:NOTIFY_SHOW_MENU_BUTTON
                                                       object:nil

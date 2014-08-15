@@ -12,7 +12,7 @@ PageManager *_PageManager;
 
 @implementation PageManager
 
-@synthesize detailFlag,spMenuFlag;
+@synthesize viewControllerState,spMenuFlag;
 
 +(PageManager *)defaultManager {
     
@@ -32,7 +32,7 @@ PageManager *_PageManager;
     if (self) {
         
         //初期化
-        detailFlag = NO;
+        viewControllerState = STATE_LIST;
         spMenuFlag = NO;
     }
     return self;

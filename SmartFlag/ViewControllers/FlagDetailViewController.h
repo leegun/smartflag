@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "AbstractCollectionViewController.h"
 
-@interface FlagViewController : AbstractCollectionViewController
+@interface FlagDetailViewController : AbstractCollectionViewController
 
 @end

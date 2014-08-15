@@ -8,15 +8,19 @@
 
 #import <Foundation/Foundation.h>
 
+#define STATE_LIST      0
+#define STATE_FIT       1
+#define STATE_DETAIL    2
+
 @interface PageManager : NSObject
 {
-    BOOL detailFlag;
+    int viewControllerState;
     BOOL spMenuFlag;
 }
 
 +(PageManager *) defaultManager;
 
-@property (nonatomic,readwrite) BOOL detailFlag;
+@property (nonatomic,readwrite) int viewControllerState;
 @property (nonatomic,readwrite) BOOL spMenuFlag;
 
 @end

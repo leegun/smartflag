@@ -19,7 +19,7 @@
 		F828C74D1981C4FA004212CF /* APLTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C5AA1981C4F9004212CF /* APLTransitionController.m */; };
 		F828C74E1981C4FA004212CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C5AC1981C4F9004212CF /* AppDelegate.m */; };
 		F828C74F1981C4FA004212CF /* FlagDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C5AF1981C4F9004212CF /* FlagDetailCell.m */; };
-		F828C7501981C4FA004212CF /* FlagIconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C5B11981C4F9004212CF /* FlagIconCell.m */; };
+		F828C7501981C4FA004212CF /* FlagListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C5B11981C4F9004212CF /* FlagListCell.m */; };
 		F828C7511981C4FA004212CF /* LeftMenuBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C5B31981C4F9004212CF /* LeftMenuBaseCell.m */; };
 		F828C7521981C4FA004212CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F828C5B61981C4F9004212CF /* InfoPlist.strings */; };
 		F828C7531981C4FA004212CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F828C5B81981C4F9004212CF /* Images.xcassets */; };
@@ -248,7 +248,7 @@
 		F828C8C41981C4FA004212CF /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C73C1981C4FA004212CF /* Utils.m */; };
 		F828C8C51981C4FA004212CF /* AbstractCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C73F1981C4FA004212CF /* AbstractCollectionViewController.m */; };
 		F828C8C61981C4FA004212CF /* FlagListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C7411981C4FA004212CF /* FlagListViewController.m */; };
-		F828C8C71981C4FA004212CF /* FlagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C7431981C4FA004212CF /* FlagViewController.m */; };
+		F828C8C71981C4FA004212CF /* FlagDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C7431981C4FA004212CF /* FlagDetailViewController.m */; };
 		F828C8C81981C4FA004212CF /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C7451981C4FA004212CF /* LeftMenuViewController.m */; };
 		F828C8C91981C4FA004212CF /* ModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C7471981C4FA004212CF /* ModalWebViewController.m */; };
 		F828C8CA1981C4FA004212CF /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C74A1981C4FA004212CF /* LoadingView.m */; };
@@ -456,6 +456,8 @@
 		F828CA621982BAC9004212CF /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F828CA611982BAC9004212CF /* libNendAd.a */; };
 		F828CA6B1982BB32004212CF /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F828CA651982BB32004212CF /* libNendAd.a */; };
 		F828CA6C1982BB32004212CF /* NADView_readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = F828CA6A1982BB32004212CF /* NADView_readme.txt */; };
+		F82E775B199E654E00026667 /* FlagFitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F82E775A199E654E00026667 /* FlagFitViewController.m */; };
+		F82E775E199E662100026667 /* FlagFitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F82E775D199E662100026667 /* FlagFitCell.m */; };
 		F8B6DD0F198372FA00430C1B /* sc01.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B6DD0A198372FA00430C1B /* sc01.png */; };
 		F8B6DD10198372FA00430C1B /* sc02.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B6DD0B198372FA00430C1B /* sc02.png */; };
 		F8B6DD11198372FA00430C1B /* sc03.png in Resources */ = {isa = PBXBuildFile; fileRef = F8B6DD0C198372FA00430C1B /* sc03.png */; };
@@ -494,8 +496,8 @@
 		F828C5AC1981C4F9004212CF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = SmartFlag/AppDelegate.m; sourceTree = "<group>"; };
 		F828C5AE1981C4F9004212CF /* FlagDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagDetailCell.h; sourceTree = "<group>"; };
 		F828C5AF1981C4F9004212CF /* FlagDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagDetailCell.m; sourceTree = "<group>"; };
-		F828C5B01981C4F9004212CF /* FlagIconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagIconCell.h; sourceTree = "<group>"; };
-		F828C5B11981C4F9004212CF /* FlagIconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagIconCell.m; sourceTree = "<group>"; };
+		F828C5B01981C4F9004212CF /* FlagListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagListCell.h; sourceTree = "<group>"; };
+		F828C5B11981C4F9004212CF /* FlagListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagListCell.m; sourceTree = "<group>"; };
 		F828C5B21981C4F9004212CF /* LeftMenuBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuBaseCell.h; sourceTree = "<group>"; };
 		F828C5B31981C4F9004212CF /* LeftMenuBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuBaseCell.m; sourceTree = "<group>"; };
 		F828C5B41981C4F9004212CF /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Define.h; path = SmartFlag/Define.h; sourceTree = "<group>"; };
@@ -731,8 +733,8 @@
 		F828C73F1981C4FA004212CF /* AbstractCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractCollectionViewController.m; sourceTree = "<group>"; };
 		F828C7401981C4FA004212CF /* FlagListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagListViewController.h; sourceTree = "<group>"; };
 		F828C7411981C4FA004212CF /* FlagListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagListViewController.m; sourceTree = "<group>"; };
-		F828C7421981C4FA004212CF /* FlagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagViewController.h; sourceTree = "<group>"; };
-		F828C7431981C4FA004212CF /* FlagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagViewController.m; sourceTree = "<group>"; };
+		F828C7421981C4FA004212CF /* FlagDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagDetailViewController.h; sourceTree = "<group>"; };
+		F828C7431981C4FA004212CF /* FlagDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagDetailViewController.m; sourceTree = "<group>"; };
 		F828C7441981C4FA004212CF /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
 		F828C7451981C4FA004212CF /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
 		F828C7461981C4FA004212CF /* ModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalWebViewController.h; sourceTree = "<group>"; };
@@ -950,6 +952,10 @@
 		F828CA681982BB32004212CF /* NADIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADIconView.h; sourceTree = "<group>"; };
 		F828CA691982BB32004212CF /* NADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADView.h; sourceTree = "<group>"; };
 		F828CA6A1982BB32004212CF /* NADView_readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NADView_readme.txt; sourceTree = "<group>"; };
+		F82E7759199E654E00026667 /* FlagFitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagFitViewController.h; sourceTree = "<group>"; };
+		F82E775A199E654E00026667 /* FlagFitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagFitViewController.m; sourceTree = "<group>"; };
+		F82E775C199E662100026667 /* FlagFitCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagFitCell.h; sourceTree = "<group>"; };
+		F82E775D199E662100026667 /* FlagFitCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagFitCell.m; sourceTree = "<group>"; };
 		F8B6DD0A198372FA00430C1B /* sc01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc01.png; sourceTree = "<group>"; };
 		F8B6DD0B198372FA00430C1B /* sc02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc02.png; sourceTree = "<group>"; };
 		F8B6DD0C198372FA00430C1B /* sc03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc03.png; sourceTree = "<group>"; };
@@ -1036,8 +1042,10 @@
 			children = (
 				F828C5AE1981C4F9004212CF /* FlagDetailCell.h */,
 				F828C5AF1981C4F9004212CF /* FlagDetailCell.m */,
-				F828C5B01981C4F9004212CF /* FlagIconCell.h */,
-				F828C5B11981C4F9004212CF /* FlagIconCell.m */,
+				F82E775C199E662100026667 /* FlagFitCell.h */,
+				F82E775D199E662100026667 /* FlagFitCell.m */,
+				F828C5B01981C4F9004212CF /* FlagListCell.h */,
+				F828C5B11981C4F9004212CF /* FlagListCell.m */,
 				F828C5B21981C4F9004212CF /* LeftMenuBaseCell.h */,
 				F828C5B31981C4F9004212CF /* LeftMenuBaseCell.m */,
 			);
@@ -1408,8 +1416,10 @@
 				F828C73F1981C4FA004212CF /* AbstractCollectionViewController.m */,
 				F828C7401981C4FA004212CF /* FlagListViewController.h */,
 				F828C7411981C4FA004212CF /* FlagListViewController.m */,
-				F828C7421981C4FA004212CF /* FlagViewController.h */,
-				F828C7431981C4FA004212CF /* FlagViewController.m */,
+				F82E7759199E654E00026667 /* FlagFitViewController.h */,
+				F82E775A199E654E00026667 /* FlagFitViewController.m */,
+				F828C7421981C4FA004212CF /* FlagDetailViewController.h */,
+				F828C7431981C4FA004212CF /* FlagDetailViewController.m */,
 				F828C7441981C4FA004212CF /* LeftMenuViewController.h */,
 				F828C7451981C4FA004212CF /* LeftMenuViewController.m */,
 				F828C7461981C4FA004212CF /* ModalWebViewController.h */,
@@ -2221,12 +2231,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F828C7511981C4FA004212CF /* LeftMenuBaseCell.m in Sources */,
-				F828C8C71981C4FA004212CF /* FlagViewController.m in Sources */,
+				F828C8C71981C4FA004212CF /* FlagDetailViewController.m in Sources */,
 				F828C7551981C4FA004212CF /* PageManager.m in Sources */,
-				F828C7501981C4FA004212CF /* FlagIconCell.m in Sources */,
+				F828C7501981C4FA004212CF /* FlagListCell.m in Sources */,
 				F8B6DD16198376B800430C1B /* BaseAnimationView.m in Sources */,
+				F82E775E199E662100026667 /* FlagFitCell.m in Sources */,
 				F828C8C41981C4FA004212CF /* Utils.m in Sources */,
 				F828C74E1981C4FA004212CF /* AppDelegate.m in Sources */,
+				F82E775B199E654E00026667 /* FlagFitViewController.m in Sources */,
 				F828C8C51981C4FA004212CF /* AbstractCollectionViewController.m in Sources */,
 				F828C74D1981C4FA004212CF /* APLTransitionController.m in Sources */,
 				F828C7541981C4FA004212CF /* main.m in Sources */,

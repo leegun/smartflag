@@ -1,5 +1,5 @@
 //
-//  FlagIconCell.h
+//  FlagFitCell.h
 //  SmartFlag
 //
 //  Created by Lee Geunil on 2014/07/12.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FlagIconCell : UICollectionViewCell
+@interface FlagFitCell : UICollectionViewCell
 {
     UIImageView * bgImage;
 }

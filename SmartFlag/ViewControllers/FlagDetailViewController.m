@@ -6,13 +6,13 @@
 //  Copyright (c) 2014年 Lee Geunil. All rights reserved.
 //
 
-#import "FlagViewController.h"
+#import "FlagDetailViewController.h"
 
-@interface FlagViewController ()
+@interface FlagDetailViewController ()
 
 @end
 
-@implementation FlagViewController
+@implementation FlagDetailViewController
 
 -(id)initWithCollectionViewLayout:(UICollectionViewFlowLayout *)layout
 {
@@ -26,7 +26,7 @@
 {
     [super viewWillAppear:animated];
     
-    [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFY_SHOW_CLOSE_BUTTON object:nil];
+    [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFY_SHOW_ALL_BUTTON object:nil];
     
 }
 

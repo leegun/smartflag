@@ -26,7 +26,8 @@
         //フラグデータ取得
         flagDataArray = [Utils getAreaData];
         
-        [self.collectionView registerClass:[FlagIconCell class] forCellWithReuseIdentifier:CELL_FLAG_BALL];
+        [self.collectionView registerClass:[FlagListCell class] forCellWithReuseIdentifier:CELL_FLAG_LIST];
+        [self.collectionView registerClass:[FlagFitCell class] forCellWithReuseIdentifier:CELL_FLAG_FIT];
         [self.collectionView registerClass:[FlagDetailCell class] forCellWithReuseIdentifier:CELL_FLAG_DETAIL];
         
         [self setupNotifications];
@@ -60,7 +61,28 @@
     NSDictionary * flagData = [flagDataArray objectAtIndex:indexPath.row];
     NSString * imageName = [NSString stringWithFormat:IMAGE_NAME,[flagData objectForKey:@"code"]];
     NSString * thumbName = [NSString stringWithFormat:IMAGE_THUMBNAIL,[flagData objectForKey:@"code"]];
-    if ([PageManager defaultManager].detailFlag) {
+    if ([PageManager defaultManager].viewControllerState == STATE_LIST) {
+        
+        FlagListCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CELL_FLAG_LIST forIndexPath:indexPath];
+        
+        //image
+        cell.bgImage.image = [UIImage imageNamed:thumbName];
+        
+        return cell;
+    } else if ([PageManager defaultManager].viewControllerState == STATE_FIT) {
+        
+        FlagFitCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CELL_FLAG_FIT forIndexPath:indexPath];
+        
+        //image
+        UIImage * image = [UIImage imageNamed:imageName];
+        if (image == nil) {
+            cell.bgImage.image = [UIImage imageNamed:thumbName];
+        } else {
+            cell.bgImage.image = [UIImage imageNamed:imageName];
+        }
+        
+        return cell;
+    } else if ([PageManager defaultManager].viewControllerState == STATE_DETAIL) {
         
         FlagDetailCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CELL_FLAG_DETAIL forIndexPath:indexPath];
         
@@ -75,21 +97,21 @@
         //name
         NSString * language = [[NSUserDefaults standardUserDefaults] objectForKey:USER_DEFAULT_LANGUAGE];
         cell.name.text = [flagData objectForKey:language];
-
+        
         //code
         cell.code.text = [flagData objectForKey:@"code"];
-
+        
         //area
         NSString * areaStr = @"area";
         if (![language isEqualToString:@"en"]) {areaStr = [NSString stringWithFormat:@"area_%@",language];}
         cell.area.text = [flagData objectForKey:areaStr];
         [cell.link addTarget:self action:@selector(onLink:) forControlEvents:UIControlEventTouchUpInside];
         cell.link.tag = indexPath.row;
-
+        
         return cell;
     } else {
         
-        FlagIconCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CELL_FLAG_BALL forIndexPath:indexPath];
+        FlagListCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CELL_FLAG_LIST forIndexPath:indexPath];
         
         //image
         cell.bgImage.image = [UIImage imageNamed:thumbName];
