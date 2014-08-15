@@ -51,7 +51,7 @@
 	<key>country_area</key>
 	<string>【地域】</string>
 	<key>country_detail</key>
-	<string>【国詳細】</string>
+	<string>【詳細】</string>
 	<key>wikipedia</key>
 	<string>Wikipedia</string>
 </dict>
