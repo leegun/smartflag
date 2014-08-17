@@ -60,6 +60,7 @@
     UICollectionViewFlowLayout* grid = [[UICollectionViewFlowLayout alloc] init];
     grid.scrollDirection = UICollectionViewScrollDirectionVertical;
     grid.itemSize = CGSizeMake(320, 212);
+    [grid setSectionInset:UIEdgeInsetsMake(0, 0, 120, 0)];
     FlagFitViewController * nextCollectionViewController = [[FlagFitViewController alloc] initWithCollectionViewLayout:grid];
     nextCollectionViewController.useLayoutToLayoutNavigationTransitions = YES;
     return nextCollectionViewController;
