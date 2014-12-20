@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GLRoundButton.h"
 
 @interface ModalWebViewController : UIViewController <UIWebViewDelegate>
 {
     NSString *linkUrl;
     UIWebView * webview;
-    UIButton * closeBtn;
+    GLRoundButton * closeBtn;
 }
 
 - (id)initWithUrl:(NSString *)urlStr;

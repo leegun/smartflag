@@ -29,8 +29,8 @@
         longTapFlag = NO;
         
         //オプションボタン
-        menuBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        menuBtn.frame = CGRectMake(0, 0, 50, 50);
+        menuBtn = [GLRoundButton new];
+        menuBtn.frame = CGRectMake(0, 0, 44, 44);
         [menuBtn setBackgroundImage:[UIImage imageNamed:@"setting.png"] forState:UIControlStateNormal];
         [menuBtn addTarget:owner action:@selector(onMenu:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:menuBtn];
@@ -38,8 +38,8 @@
         [menuBtn addGestureRecognizer:longPressGesture];
         
         //閉じるボタン
-        closeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-        closeBtn.frame = CGRectMake(240, 0, 50, 50);
+        closeBtn = [GLRoundButton new];
+        closeBtn.frame = CGRectMake(255, 0, 44, 44);
         [closeBtn setBackgroundImage:[UIImage imageNamed:@"close.png"] forState:UIControlStateNormal];
         [closeBtn addTarget:owner action:@selector(onClose:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:closeBtn];

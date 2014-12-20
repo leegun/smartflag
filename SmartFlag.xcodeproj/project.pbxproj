@@ -467,6 +467,7 @@
 		F8B6DD16198376B800430C1B /* BaseAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B6DD15198376B800430C1B /* BaseAnimationView.m */; };
 		F8B6DD1C1983ABA800430C1B /* localize_en.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8B6DD1A1983ABA800430C1B /* localize_en.plist */; };
 		F8B6DD1D1983ABA800430C1B /* localize_ja.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8B6DD1B1983ABA800430C1B /* localize_ja.plist */; };
+		F8EDD8321A3A6C5D00E6390F /* GLRoundButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F8EDD8311A3A6C5D00E6390F /* GLRoundButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -967,6 +968,10 @@
 		F8B6DD15198376B800430C1B /* BaseAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAnimationView.m; sourceTree = "<group>"; };
 		F8B6DD1A1983ABA800430C1B /* localize_en.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = localize_en.plist; sourceTree = "<group>"; };
 		F8B6DD1B1983ABA800430C1B /* localize_ja.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = localize_ja.plist; sourceTree = "<group>"; };
+		F8CB30311A41D55500AA641B /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8CB30321A41D56700AA641B /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F8EDD8301A3A6C5D00E6390F /* GLRoundButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLRoundButton.h; sourceTree = "<group>"; };
+		F8EDD8311A3A6C5D00E6390F /* GLRoundButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLRoundButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1440,6 +1445,8 @@
 				F828C74C1981C4FA004212CF /* OptionButtonView.m */,
 				F81E219A198A955A00218CA8 /* ScaleFlagsView.h */,
 				F81E219B198A955A00218CA8 /* ScaleFlagsView.m */,
+				F8EDD8301A3A6C5D00E6390F /* GLRoundButton.h */,
+				F8EDD8311A3A6C5D00E6390F /* GLRoundButton.m */,
 			);
 			name = Views;
 			path = SmartFlag/Views;
@@ -1765,6 +1772,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
+				ja,
 			);
 			mainGroup = F826B5211970F0CF00A9D390;
 			productRefGroup = F826B5211970F0CF00A9D390;
@@ -2241,6 +2250,7 @@
 				F8B6DD16198376B800430C1B /* BaseAnimationView.m in Sources */,
 				F82E775E199E662100026667 /* FlagFitCell.m in Sources */,
 				F828C8C41981C4FA004212CF /* Utils.m in Sources */,
+				F8EDD8321A3A6C5D00E6390F /* GLRoundButton.m in Sources */,
 				F828C74E1981C4FA004212CF /* AppDelegate.m in Sources */,
 				F82E775B199E654E00026667 /* FlagFitViewController.m in Sources */,
 				F828C8C51981C4FA004212CF /* AbstractCollectionViewController.m in Sources */,
@@ -2279,6 +2289,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				F828C5B71981C4F9004212CF /* en */,
+				F8CB30311A41D55500AA641B /* ko */,
+				F8CB30321A41D56700AA641B /* ja */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -2354,7 +2366,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				PROVISIONING_PROFILE = "ACF76609-1EF9-4E97-86EE-C85BB3F818F5";
+				PROVISIONING_PROFILE = "7ea35a35-d4ce-4d00-a7e8-3e888b6fa8dd";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -2393,7 +2405,7 @@
 					"$(PROJECT_DIR)/SmartFlag/Library/NendAd",
 				);
 				PRODUCT_NAME = SmartFlag;
-				PROVISIONING_PROFILE = "ACF76609-1EF9-4E97-86EE-C85BB3F818F5";
+				PROVISIONING_PROFILE = "7ea35a35-d4ce-4d00-a7e8-3e888b6fa8dd";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -48,8 +48,8 @@
     }
     
     //閉じるボタン
-    closeBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    closeBtn.frame = CGRectMake(250, vcHeight - 110, 50, 50);
+    closeBtn = [GLRoundButton new];
+    closeBtn.frame = CGRectMake(265, vcHeight - 110, 44, 44);
     [closeBtn setBackgroundImage:[UIImage imageNamed:@"close.png"] forState:UIControlStateNormal];
     [closeBtn addTarget:self action:@selector(onClose:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:closeBtn];

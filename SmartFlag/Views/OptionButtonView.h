@@ -8,15 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "PageManager.h"
+#import "GLRoundButton.h"
 
 @interface OptionButtonView : UIView <UIActionSheetDelegate>
 {
     CGRect vcFrame;
     BOOL longTapFlag;
     
-    UIButton * menuBtn;
-    UIButton * closeBtn;
-    UIButton * quizBtn;
+    GLRoundButton * menuBtn;
+    GLRoundButton * closeBtn;
+//    GLRoundButton * quizBtn;
 }
 
 - (id)initWithOwner:(id)owner;

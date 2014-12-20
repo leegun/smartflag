@@ -78,7 +78,10 @@
         [self addSubview:linkTitle];
 
         //Wikiリンク
-        link = [UIButton buttonWithType:110];
+        link = [UIButton new];
+        link.backgroundColor = [UIColor lightGrayColor];
+        [[link layer] setCornerRadius:4.0];
+        [link setClipsToBounds:YES];
         [link setTitle:[Utils getLanguage:@"wikipedia"] forState:UIControlStateNormal];
         link.frame = CGRectMake(20, 390, 120, 30);
         [self addSubview:link];
