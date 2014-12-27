@@ -34,6 +34,7 @@ PageManager *_PageManager;
         //初期化
         viewControllerState = STATE_LIST;
         spMenuFlag = NO;
+        _animFlag = NO;
     }
     return self;
 }

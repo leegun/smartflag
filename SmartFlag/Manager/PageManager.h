@@ -9,8 +9,9 @@
 #import <Foundation/Foundation.h>
 
 #define STATE_LIST      0
-#define STATE_FIT       1
-#define STATE_DETAIL    2
+#define STATE_LIST_NEXT 1
+#define STATE_FIT       2
+#define STATE_DETAIL    3
 
 @interface PageManager : NSObject
 {
@@ -22,5 +23,6 @@
 
 @property (nonatomic,readwrite) int viewControllerState;
 @property (nonatomic,readwrite) BOOL spMenuFlag;
+@property (nonatomic,readwrite) BOOL animFlag;
 
 @end

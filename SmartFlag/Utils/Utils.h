@@ -14,8 +14,9 @@
 +(void)setUserDefalut:(NSString *)key value:(id)value;
 +(id)getUserDefalut:(NSString *)key;
 +(BOOL)checkMark:(NSString *)key value:(NSString *)value;
-+(NSArray *)getAreaData;
-+(NSArray *)getSortData;
++(NSMutableArray *)setAdvertising:(NSMutableArray *)dataArray;
++(NSMutableArray *)getAreaData;
++(NSMutableArray *)getSortData;
 +(NSString *)getLanguage:(NSString *)key;
 
 @end

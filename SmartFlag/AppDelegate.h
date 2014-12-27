@@ -24,6 +24,6 @@
 @property (nonatomic) APLTransitionController *transitionController;
 @property (nonatomic) BOOL leftMenuShowing;
 @property (strong, nonatomic) LeftMenuViewController *leftMenuViewController;
-@property (nonatomic, retain) NADView * nadView;
+//@property (nonatomic, retain) NADView * nadView;
 
 @end

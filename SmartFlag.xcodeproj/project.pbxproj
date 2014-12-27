@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8082E291A4DB72800789256 /* AdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8082E281A4DB72800789256 /* AdCell.m */; };
+		F812ECDF1A4588BE007B3993 /* FlagListNextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F812ECDE1A4588BE007B3993 /* FlagListNextCell.m */; };
+		F812ECE21A4589EC007B3993 /* FlagListNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F812ECE11A4589EC007B3993 /* FlagListNextViewController.m */; };
 		F81E219C198A955A00218CA8 /* ScaleFlagsView.m in Sources */ = {isa = PBXBuildFile; fileRef = F81E219B198A955A00218CA8 /* ScaleFlagsView.m */; };
 		F81E219E198BED0500218CA8 /* as.png in Resources */ = {isa = PBXBuildFile; fileRef = F81E219D198BED0500218CA8 /* as.png */; };
 		F81E21A2198BEEB900218CA8 /* ai.png in Resources */ = {isa = PBXBuildFile; fileRef = F81E219F198BEEB900218CA8 /* ai.png */; };
@@ -244,7 +247,6 @@
 		F828C8C01981C4FA004212CF /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F828C7341981C4FA004212CF /* Icon-Small@2x.png */; };
 		F828C8C11981C4FA004212CF /* Icon-Spotlight-40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F828C7351981C4FA004212CF /* Icon-Spotlight-40@2x.png */; };
 		F828C8C21981C4FA004212CF /* flag_data_all.plist in Resources */ = {isa = PBXBuildFile; fileRef = F828C7371981C4FA004212CF /* flag_data_all.plist */; };
-		F828C8C31981C4FA004212CF /* SmartFlag-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F828C7381981C4FA004212CF /* SmartFlag-Info.plist */; };
 		F828C8C41981C4FA004212CF /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C73C1981C4FA004212CF /* Utils.m */; };
 		F828C8C51981C4FA004212CF /* AbstractCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C73F1981C4FA004212CF /* AbstractCollectionViewController.m */; };
 		F828C8C61981C4FA004212CF /* FlagListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C7411981C4FA004212CF /* FlagListViewController.m */; };
@@ -454,7 +456,6 @@
 		F828CA5E1982BA89004212CF /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F828CA5D1982BA89004212CF /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		F828CA601982BA9A004212CF /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F828CA5F1982BA9A004212CF /* ImageIO.framework */; };
 		F828CA621982BAC9004212CF /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F828CA611982BAC9004212CF /* libNendAd.a */; };
-		F828CA6B1982BB32004212CF /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F828CA651982BB32004212CF /* libNendAd.a */; };
 		F828CA6C1982BB32004212CF /* NADView_readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = F828CA6A1982BB32004212CF /* NADView_readme.txt */; };
 		F82E775B199E654E00026667 /* FlagFitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F82E775A199E654E00026667 /* FlagFitViewController.m */; };
 		F82E775E199E662100026667 /* FlagFitCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F82E775D199E662100026667 /* FlagFitCell.m */; };
@@ -481,6 +482,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8082E271A4DB72800789256 /* AdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdCell.h; sourceTree = "<group>"; };
+		F8082E281A4DB72800789256 /* AdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdCell.m; sourceTree = "<group>"; };
+		F812ECDD1A4588BE007B3993 /* FlagListNextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagListNextCell.h; sourceTree = "<group>"; };
+		F812ECDE1A4588BE007B3993 /* FlagListNextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagListNextCell.m; sourceTree = "<group>"; };
+		F812ECE01A4589EC007B3993 /* FlagListNextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlagListNextViewController.h; sourceTree = "<group>"; };
+		F812ECE11A4589EC007B3993 /* FlagListNextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlagListNextViewController.m; sourceTree = "<group>"; };
 		F81E219A198A955A00218CA8 /* ScaleFlagsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleFlagsView.h; sourceTree = "<group>"; };
 		F81E219B198A955A00218CA8 /* ScaleFlagsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScaleFlagsView.m; sourceTree = "<group>"; };
 		F81E219D198BED0500218CA8 /* as.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = as.png; sourceTree = "<group>"; };
@@ -981,7 +988,6 @@
 			files = (
 				F828CA621982BAC9004212CF /* libNendAd.a in Frameworks */,
 				F828CA601982BA9A004212CF /* ImageIO.framework in Frameworks */,
-				F828CA6B1982BB32004212CF /* libNendAd.a in Frameworks */,
 				F828CA5E1982BA89004212CF /* AdSupport.framework in Frameworks */,
 				F828CA5C1982BA7F004212CF /* Security.framework in Frameworks */,
 			);
@@ -1047,10 +1053,14 @@
 		F828C5AD1981C4F9004212CF /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				F8082E271A4DB72800789256 /* AdCell.h */,
+				F8082E281A4DB72800789256 /* AdCell.m */,
 				F828C5AE1981C4F9004212CF /* FlagDetailCell.h */,
 				F828C5AF1981C4F9004212CF /* FlagDetailCell.m */,
 				F82E775C199E662100026667 /* FlagFitCell.h */,
 				F82E775D199E662100026667 /* FlagFitCell.m */,
+				F812ECDD1A4588BE007B3993 /* FlagListNextCell.h */,
+				F812ECDE1A4588BE007B3993 /* FlagListNextCell.m */,
 				F828C5B01981C4F9004212CF /* FlagListCell.h */,
 				F828C5B11981C4F9004212CF /* FlagListCell.m */,
 				F828C5B21981C4F9004212CF /* LeftMenuBaseCell.h */,
@@ -1423,6 +1433,8 @@
 				F828C73F1981C4FA004212CF /* AbstractCollectionViewController.m */,
 				F828C7401981C4FA004212CF /* FlagListViewController.h */,
 				F828C7411981C4FA004212CF /* FlagListViewController.m */,
+				F812ECE01A4589EC007B3993 /* FlagListNextViewController.h */,
+				F812ECE11A4589EC007B3993 /* FlagListNextViewController.m */,
 				F82E7759199E654E00026667 /* FlagFitViewController.h */,
 				F82E775A199E654E00026667 /* FlagFitViewController.m */,
 				F828C7421981C4FA004212CF /* FlagDetailViewController.h */,
@@ -1754,7 +1766,7 @@
 		F826B5221970F0CF00A9D390 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Lee Geunil";
 				TargetAttributes = {
 					F826B5291970F0CF00A9D390 = {
@@ -2036,7 +2048,6 @@
 				F828C8001981C4FA004212CF /* am50.png in Resources */,
 				F828CA1D1982A654004212CF /* rw.png in Resources */,
 				F828C9BA1982A654004212CF /* dz.png in Resources */,
-				F828C8C31981C4FA004212CF /* SmartFlag-Info.plist in Resources */,
 				F828CA171982A654004212CF /* pw.png in Resources */,
 				F828C7F81981C4FA004212CF /* ro50.png in Resources */,
 				F828C81B1981C4FA004212CF /* as50.png in Resources */,
@@ -2256,13 +2267,16 @@
 				F828C8C51981C4FA004212CF /* AbstractCollectionViewController.m in Sources */,
 				F828C74D1981C4FA004212CF /* APLTransitionController.m in Sources */,
 				F828C7541981C4FA004212CF /* main.m in Sources */,
+				F812ECE21A4589EC007B3993 /* FlagListNextViewController.m in Sources */,
 				F828C8CA1981C4FA004212CF /* LoadingView.m in Sources */,
 				F81E219C198A955A00218CA8 /* ScaleFlagsView.m in Sources */,
 				F828C8CB1981C4FA004212CF /* OptionButtonView.m in Sources */,
 				F828C8C61981C4FA004212CF /* FlagListViewController.m in Sources */,
 				F828C8C81981C4FA004212CF /* LeftMenuViewController.m in Sources */,
+				F8082E291A4DB72800789256 /* AdCell.m in Sources */,
 				F828C8C91981C4FA004212CF /* ModalWebViewController.m in Sources */,
 				F828C74F1981C4FA004212CF /* FlagDetailCell.m in Sources */,
+				F812ECDF1A4588BE007B3993 /* FlagListNextCell.m in Sources */,
 				F8210C5D1986A91E00F1B46A /* UIImage+ImageEffects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

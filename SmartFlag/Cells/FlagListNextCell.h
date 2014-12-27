@@ -1,5 +1,5 @@
 //
-//  FlagListCell.h
+//  FlagListNextCell.h
 //  SmartFlag
 //
 //  Created by Lee Geunil on 2014/07/12.
@@ -7,16 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "PageManager.h"
 
-@interface FlagListCell : UICollectionViewCell
+@interface FlagListNextCell : UICollectionViewCell
 {
     UIImageView * bgImage;
+    UILabel * name;
 }
 
 @property (nonatomic) UIImageView * bgImage;
-
-- (void)startAlphaAnimation:(float)delay;
-- (void)startAnimation:(float)delay;
+@property (nonatomic) UILabel * name;
 
 @end

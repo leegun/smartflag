@@ -10,11 +10,13 @@
 
 @interface AbstractCollectionViewController ()
 
+@property (nonatomic) int animCount;
+
 @end
 
 @implementation AbstractCollectionViewController
 
-@synthesize flagDataArray;
+@synthesize flagDataArray,adFlagDataArray;
 
 -(id)initWithCollectionViewLayout:(UICollectionViewFlowLayout *)layout
 {
@@ -23,16 +25,26 @@
         //画面サイズ
         vcFrame = [[UIScreen mainScreen] bounds];
         
-        //フラグデータ取得
-        flagDataArray = [Utils getAreaData];
-        
         [self.collectionView registerClass:[FlagListCell class] forCellWithReuseIdentifier:CELL_FLAG_LIST];
+        [self.collectionView registerClass:[FlagListNextCell class] forCellWithReuseIdentifier:CELL_FLAG_LIST_NEXT];
         [self.collectionView registerClass:[FlagFitCell class] forCellWithReuseIdentifier:CELL_FLAG_FIT];
         [self.collectionView registerClass:[FlagDetailCell class] forCellWithReuseIdentifier:CELL_FLAG_DETAIL];
+        [self.collectionView registerClass:[AdCell class] forCellWithReuseIdentifier:CELL_AD];
+        
+        _animCount = 0;
         
         [self setupNotifications];
     }
     return self;
+}
+
+- (void)viewDidLoad{
+    
+    //フラグデータ取得
+    flagDataArray = [Utils getAreaData];
+
+    //広告セル追加
+    adFlagDataArray = [[Utils setAdvertising:[flagDataArray mutableCopy]] mutableCopy];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -48,7 +60,7 @@
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    return flagDataArray.count;
+    return adFlagDataArray.count;
 }
 
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView
@@ -58,7 +70,19 @@
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSDictionary * flagData = [flagDataArray objectAtIndex:indexPath.row];
+    NSDictionary * flagData = [adFlagDataArray objectAtIndex:indexPath.row];
+    
+    //advertising
+    if ([[flagData objectForKey:@"advertising"] boolValue]) {
+        
+        AdCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CELL_AD forIndexPath:indexPath];
+        if (![[PageManager defaultManager] animFlag]) {
+            [cell startAlphaAnimation:((float)_animCount * 0.05f)];
+            _animCount++;
+        }
+        return cell;
+    }
+    
     NSString * imageName = [NSString stringWithFormat:IMAGE_NAME,[flagData objectForKey:@"code"]];
     NSString * thumbName = [NSString stringWithFormat:IMAGE_THUMBNAIL,[flagData objectForKey:@"code"]];
     if ([PageManager defaultManager].viewControllerState == STATE_LIST) {
@@ -67,8 +91,26 @@
         
         //image
         cell.bgImage.image = [UIImage imageNamed:thumbName];
+        if (![[PageManager defaultManager] animFlag]) {
+            [cell startAlphaAnimation:((float)_animCount * 0.05f)];
+            _animCount++;
+        }
         
         return cell;
+
+    } else if ([PageManager defaultManager].viewControllerState == STATE_LIST_NEXT) {
+        
+        FlagListNextCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CELL_FLAG_LIST_NEXT forIndexPath:indexPath];
+        
+        //image
+        cell.bgImage.image = [UIImage imageNamed:thumbName];
+        
+        //name
+        NSString * language = [[NSUserDefaults standardUserDefaults] objectForKey:USER_DEFAULT_LANGUAGE];
+        cell.name.text = [flagData objectForKey:language];
+        
+        return cell;
+
     } else if ([PageManager defaultManager].viewControllerState == STATE_FIT) {
         
         FlagFitCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:CELL_FLAG_FIT forIndexPath:indexPath];
@@ -105,6 +147,8 @@
         NSString * areaStr = @"area";
         if (![language isEqualToString:@"en"]) {areaStr = [NSString stringWithFormat:@"area_%@",language];}
         cell.area.text = [flagData objectForKey:areaStr];
+        
+        //link
         [cell.link addTarget:self action:@selector(onLink:) forControlEvents:UIControlEventTouchUpInside];
         cell.link.tag = indexPath.row;
         
@@ -139,6 +183,8 @@
 - (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset
 {
     [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFY_VISIBLE_OPTION_BUTTON object:nil];
+    
+    _animCount = 0;
 }
 
 -(UICollectionViewController*)nextViewControllerAtPoint:(CGPoint)p
@@ -166,6 +212,8 @@
                                                       
                                                       //フラグデータ取得
                                                       weakSelf.flagDataArray = [Utils getAreaData];
+                                                      //広告セル追加
+                                                      weakSelf.adFlagDataArray = [[Utils setAdvertising:[flagDataArray mutableCopy]] mutableCopy];
                                                       
                                                       [weakSelf.collectionView reloadData];
                                                       
@@ -178,6 +226,8 @@
                                                       
                                                       //フラグデータ取得
                                                       weakSelf.flagDataArray = [Utils getSortData];
+                                                      //広告セル追加
+                                                      weakSelf.adFlagDataArray = [[Utils setAdvertising:[flagDataArray mutableCopy]] mutableCopy];
                                                       
                                                       [weakSelf.collectionView reloadData];
                                                       

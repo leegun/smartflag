@@ -48,10 +48,22 @@
     }
 }
 
-+(NSArray *)getAreaData
++(NSMutableArray *)setAdvertising:(NSMutableArray *)dataArray
+{
+    for (int i = 0; i < dataArray.count; i++) {
+        if ( (i != 0) && (i % 6) == 0) {
+            NSDictionary * adData = @{@"advertising":@YES};
+            [dataArray insertObject:adData atIndex:i];
+        }
+    }
+    
+    return dataArray;
+}
+
++(NSMutableArray *)getAreaData
 {
     NSString * dataPath = [[NSBundle mainBundle] pathForResource:@"flag_data_all" ofType:@"plist"];
-    NSArray * dataArray = [NSArray arrayWithContentsOfFile:dataPath];
+    NSMutableArray * dataArray = [NSMutableArray arrayWithContentsOfFile:dataPath];
     NSMutableArray * areaArray = [NSMutableArray new];
 
     NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
@@ -70,10 +82,10 @@
     
 }
 
-+(NSArray *)getSortData
++(NSMutableArray *)getSortData
 {
     NSString * dataPath = [[NSBundle mainBundle] pathForResource:@"flag_data_all" ofType:@"plist"];
-    NSMutableArray * dataArray = [NSArray arrayWithContentsOfFile:dataPath];
+    NSMutableArray * dataArray = [NSMutableArray arrayWithContentsOfFile:dataPath];
     NSMutableArray * sortArray = [NSMutableArray new];
     
     NSUserDefaults * defaults = [NSUserDefaults standardUserDefaults];
