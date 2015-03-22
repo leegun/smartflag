@@ -53,6 +53,13 @@
     [closeBtn setBackgroundImage:[UIImage imageNamed:@"close.png"] forState:UIControlStateNormal];
     [closeBtn addTarget:self action:@selector(onClose:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:closeBtn];
+    
+    //広告
+    NADView *nadView = [[NADView alloc] initWithFrame:CGRectMake(0, vcHeight - 50, 320, 50)];
+    [nadView setIsOutputLog:NO];
+    [nadView setNendID:@"353a2edee9c7d9323b95f07ad55b25b9f32fa080" spotID:@"208676"];
+    [nadView load];
+    [self.view addSubview:nadView];
 
     [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFY_INVISIBLE_OPTION_BUTTON object:nil];
 }

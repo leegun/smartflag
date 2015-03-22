@@ -22,7 +22,7 @@
     //画面サイズ
     vcFrame = [[UIScreen mainScreen] bounds];
 
-    self = [super initWithFrame:CGRectMake(10, vcFrame.size.height - 110, 310, 50)];
+    self = [super initWithFrame:CGRectMake(10, vcFrame.size.height - 60, 310, 50)];
     if (self) {
         
         //長押しフラグ初期化

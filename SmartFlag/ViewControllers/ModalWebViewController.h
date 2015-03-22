@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "GLRoundButton.h"
+#import "NADView.h"
 
 @interface ModalWebViewController : UIViewController <UIWebViewDelegate>
 {

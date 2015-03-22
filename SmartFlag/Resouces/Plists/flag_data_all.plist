@@ -1798,6 +1798,34 @@
 		<key>code</key>
 		<string>fi</string>
 		<key>en</key>
+		<string>Finland</string>
+		<key>ja</key>
+		<string>フィンランド</string>
+		<key>ko</key>
+		<string>핀란드</string>
+		<key>area</key>
+		<string>europe</string>
+		<key>area_ja</key>
+		<string>ヨーロッパ</string>
+		<key>area_ko</key>
+		<string>유럽</string>
+		<key>sort_vertical_flag</key>
+		<false/>
+		<key>sort_horizontal_flag</key>
+		<false/>
+		<key>sort_cross_flag</key>
+		<true/>
+		<key>sort_sun_flag</key>
+		<false/>
+		<key>sort_moon_flag</key>
+		<false/>
+		<key>sort_star_flag</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>code</key>
+		<string>fo</string>
+		<key>en</key>
 		<string>Faroe Islands</string>
 		<key>ja</key>
 		<string>フェロー諸島</string>

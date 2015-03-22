@@ -19,6 +19,8 @@
 		F81E21A8198BEF6500218CA8 /* ss.png in Resources */ = {isa = PBXBuildFile; fileRef = F81E21A7198BEF6500218CA8 /* ss.png */; };
 		F8210C5919869E6900F1B46A /* quiz.png in Resources */ = {isa = PBXBuildFile; fileRef = F8210C5819869E6900F1B46A /* quiz.png */; };
 		F8210C5D1986A91E00F1B46A /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = F8210C5C1986A91E00F1B46A /* UIImage+ImageEffects.m */; };
+		F8266A631ABEF182009EC42A /* fo50.png in Resources */ = {isa = PBXBuildFile; fileRef = F8266A621ABEF182009EC42A /* fo50.png */; };
+		F8266A651ABEF1CA009EC42A /* fo.png in Resources */ = {isa = PBXBuildFile; fileRef = F8266A641ABEF1CA009EC42A /* fo.png */; };
 		F828C74D1981C4FA004212CF /* APLTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C5AA1981C4F9004212CF /* APLTransitionController.m */; };
 		F828C74E1981C4FA004212CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C5AC1981C4F9004212CF /* AppDelegate.m */; };
 		F828C74F1981C4FA004212CF /* FlagDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F828C5AF1981C4F9004212CF /* FlagDetailCell.m */; };
@@ -499,6 +501,8 @@
 		F8210C5819869E6900F1B46A /* quiz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quiz.png; sourceTree = "<group>"; };
 		F8210C5B1986A91E00F1B46A /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		F8210C5C1986A91E00F1B46A /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		F8266A621ABEF182009EC42A /* fo50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fo50.png; sourceTree = "<group>"; };
+		F8266A641ABEF1CA009EC42A /* fo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fo.png; sourceTree = "<group>"; };
 		F828C5A91981C4F9004212CF /* APLTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLTransitionController.h; sourceTree = "<group>"; };
 		F828C5AA1981C4F9004212CF /* APLTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLTransitionController.m; sourceTree = "<group>"; };
 		F828C5AB1981C4F9004212CF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SmartFlag/AppDelegate.h; sourceTree = "<group>"; };
@@ -1300,6 +1304,7 @@
 				F828C6501981C4F9004212CF /* ee50.png */,
 				F828C6511981C4F9004212CF /* es50.png */,
 				F828C6521981C4F9004212CF /* fi50.png */,
+				F8266A621ABEF182009EC42A /* fo50.png */,
 				F828C6531981C4F9004212CF /* fr50.png */,
 				F828C6541981C4F9004212CF /* gr50.png */,
 				F828C6551981C4F9004212CF /* hr50.png */,
@@ -1528,6 +1533,7 @@
 				F828CA491982AAA0004212CF /* es.png */,
 				F828C9041982A654004212CF /* et.png */,
 				F828C9051982A654004212CF /* fi.png */,
+				F8266A641ABEF1CA009EC42A /* fo.png */,
 				F828C9061982A654004212CF /* fk.png */,
 				F828C9071982A654004212CF /* fm.png */,
 				F828C9081982A654004212CF /* fr.png */,
@@ -1913,6 +1919,7 @@
 				F828C77C1981C4FA004212CF /* ng50.png in Resources */,
 				F828C7A51981C4FA004212CF /* ni50.png in Resources */,
 				F828C9EC1982A654004212CF /* li.png in Resources */,
+				F8266A651ABEF1CA009EC42A /* fo.png in Resources */,
 				F828C81D1981C4FA004212CF /* ax50.png in Resources */,
 				F828C7E51981C4FA004212CF /* gr50.png in Resources */,
 				F828C9CD1982A654004212CF /* gw.png in Resources */,
@@ -2054,6 +2061,7 @@
 				F828C7841981C4FA004212CF /* st50.png in Resources */,
 				F828C7761981C4FA004212CF /* mr50.png in Resources */,
 				F828CA021982A654004212CF /* mw.png in Resources */,
+				F8266A631ABEF182009EC42A /* fo50.png in Resources */,
 				F828CA2B1982A654004212CF /* sv.png in Resources */,
 				F828C9981982A654004212CF /* bd.png in Resources */,
 				F828C7FA1981C4FA004212CF /* sel50.png in Resources */,

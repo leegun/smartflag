@@ -166,7 +166,7 @@
 
 - (void)onLink:(UIButton *)button
 {
-    NSDictionary * data = [flagDataArray objectAtIndex:button.tag];
+    NSDictionary * data = [adFlagDataArray objectAtIndex:button.tag];
     NSString * locale = [Utils getUserDefalut:USER_DEFAULT_LANGUAGE];
     NSString * wikiUrl = [NSString stringWithFormat:WIKI_URL,locale,[data objectForKey:locale]];
     [[NSNotificationCenter defaultCenter] postNotificationName:NOTIFY_SHOW_WEB_VIEW object:wikiUrl];
