@@ -1,4 +1,4 @@
 smartflag
 =========
 
-strudy flag to smart!!
+study flag to smart!!
